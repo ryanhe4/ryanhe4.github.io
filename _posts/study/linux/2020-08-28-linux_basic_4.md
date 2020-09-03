@@ -1,13 +1,12 @@
 ---
-excerpt: 파일속성(chmod), 통신
-header:
-    overlay_image: /assets/images/header_image_1.jpg
 title: "Linux 기본 명령어 4"
-categories: linux
+categories: study
+tags: linux
 date: '2020-08-28 09:30:00 +0900'
-toc: true  
-toc_sticky: true
+description: >
+  Linux 기본 명령어 
 ---
+{:toc}
 # 파일 속성 정보 관리
 
 >chown CMD

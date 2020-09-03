@@ -1,14 +1,12 @@
 ---
-excerpt: uname, date, cal ...
-header:
-    overlay_image: /assets/images/header_image_1.jpg
-    show_overlay_excerpt: false
 title: "Linux 기본 명령어 2"
 date: 2020-08-26 09:31:00 +0900
-categories: linux
-toc: true  
-toc_sticky: true
+categories: study
+tags: linux
+description: >
+  Linux 기본 명령어 
 ---
+{:toc}
 # 시스템 기본 정보
   **1) uname 명령어**
   ```python

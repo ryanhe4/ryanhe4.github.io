@@ -1,13 +1,12 @@
 ---
-excerpt: run level, language, passwd, ..
-header:
-    overlay_image: /assets/images/header_image_1.jpg
 title: "Linux 기본 명령어 1"
 date: 2020-08-25 15:52:00 +0900
-categories: linux
-toc: true  
-toc_sticky: true
+categories: study
+tags: linux 
+description: >
+  Linux 기본 명령어 
 ---
+{:toc}
 # 01. 런레벨(run level)
 
 ```python

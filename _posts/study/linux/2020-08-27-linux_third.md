@@ -1,14 +1,12 @@
 ---
-excerpt: 관리 명령어, 파일의 종류
-header:
-    overlay_image: /assets/images/header_image_1.jpg
 title: "Linux 기본 명령어 3"
 date: 2020-08-27 09:33:00 -0400
-categories: linux
-toc: true  
-toc_sticky: true
-classes: wide
+categories: study
+tags: linux
+description: >
+  Linux 기본 명령어 
 ---
+{:toc}
 # 기타 관리용 명령어
 
 > su CMD (switch user)
