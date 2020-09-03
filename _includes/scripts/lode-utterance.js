@@ -1,18 +1,18 @@
- 'use strict';
-
-  (function() {
+(function(w, d) {
   var commentContainer = document.querySelector('#utterances-comments');
 
   if (!commentContainer) {
-  return;
-}
+    return;
+  }
 
   var script = document.createElement('script');
   script.setAttribute('src', 'https://utteranc.es/client.js');
   script.setAttribute('repo', '{{ site.repository }}');
-  script.setAttribute('issue-term', '{{ site.comments.utterances.issue_term | default: "pathname" }}');
-  script.setAttribute('theme', '{{ site.comments.utterances.theme | default: "github-light" }}');
+  script.setAttribute('issue-term',
+      '{{ site.comments.utterances.issue_term | default: "pathname" }}');
+  script.setAttribute('theme',
+      '{{ site.comments.utterances.theme | default: "github-light" }}');
   script.setAttribute('crossorigin', 'anonymous');
 
   commentContainer.appendChild(script);
-})();
+}(window, document));
