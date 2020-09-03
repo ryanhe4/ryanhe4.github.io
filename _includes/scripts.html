@@ -7,10 +7,6 @@
 </script>
 {% endif %}
 
-{% if site.utterance and page.comments %}
-  {% include scripts/utterance.html %}
-{% endif %}
-
 {% assign google_fonts = site.google_fonts | default:"Roboto+Slab:700|Noto+Serif:400,400i,700,700i" %}
 
 {% capture icons_url %}{% link assets/icomoon/style.css %}{% endcapture %}
@@ -36,6 +32,10 @@
   <!--[if gt IE 9]>-->
   {% capture js_url %}{% link assets/js/hydejack.js %}?v=6.4.0{% endcapture %}
   <script>loadJSDeferred('{{ js_url | relative_url }}');</script>
+
+  {% if site.utterance and page.comments %}
+    {% include scripts/utterance.html %}
+  {% endif %}
 
   {% comment %}
     {% include my-scripts.html %}
