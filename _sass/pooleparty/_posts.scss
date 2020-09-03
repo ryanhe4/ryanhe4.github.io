@@ -20,6 +20,13 @@
   // margin-top: 0;
 }
 
+.page__content {
+  .archive__item-title {
+    margin-top: 1em;
+    border-bottom: none;
+  }
+}
+
 // Meta data line below post title
 .post-date {
   // display: block;
