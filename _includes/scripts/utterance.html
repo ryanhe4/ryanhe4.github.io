@@ -1,44 +1,49 @@
 <script>
   (function(w, d) {
 
-    w._uttLoading = typeof w._uttLoading != 'undefined' ? w._uttLoading : false;
-    w._uttFirst = typeof w._uttFirst != 'undefined' ? w._uttFirst : true;
-    w._disqusThis = false;
-    w._disqusThreadOffsetTop = d.getElementById('utterances-comments').offsetTop;
+    document.addEventListener('DOMContentLoaded', function(event) {
+      //the event occurred
+      console.log('dom loaded');
+    })
 
-    function loadUtt(e) {
-      var scrollTop = w.pageYOffset || d.body.scrollTop;
-      var commentContainer = document.querySelector('#utterances-comments');
-
-      if (!commentContainer) {
-        console.log("없음")
-        return;
-      }
-      console.log("있음")
-      if (!w._disqusThis && !w._uttFirst && scrollTop + w.innerHeight >= w._disqusThreadOffsetTop) {
-        w._disqusThis = true;
-
-        var script = document.createElement('script');
-        script.setAttribute('src', 'https://utteranc.es/client.js');
-        script.setAttribute('repo', 'ryanhe4/ryanhe4.github.io');
-        script.setAttribute('issue-term', 'pathname');
-        script.setAttribute('theme', 'github-light');
-        script.setAttribute('crossorigin', 'anonymous');
-
-        commentContainer.appendChild(script);
-      }
-    }
-    console.log('실행확인')
-    if (!w._uttLoading) {
-      w._uttLoading = true;
-
-      loadJSDeferred('//utteranc.es/client.js');
-
-      if (w.addEventListener) w.addEventListener('scroll', loadUtt, {passive: true});
-      else if (w.attachEvent) w.attachEvent('onscroll', loadUtt);
-      else w.onscroll = loadUtt;
-    } else {
-      w._uttFirst = false;
-    }
+    // w._uttLoading = typeof w._uttLoading != 'undefined' ? w._uttLoading : false;
+    // w._uttFirst = typeof w._uttFirst != 'undefined' ? w._uttFirst : true;
+    // w._disqusThis = false;
+    // w._disqusThreadOffsetTop = d.getElementById('utterances-comments').offsetTop;
+    //
+    // function loadUtt(e) {
+    //   var scrollTop = w.pageYOffset || d.body.scrollTop;
+    //   var commentContainer = document.querySelector('#utterances-comments');
+    //
+    //   if (!commentContainer) {
+    //     console.log("없음")
+    //     return;
+    //   }
+    //   console.log("있음")
+    //   if (!w._disqusThis && !w._uttFirst && scrollTop + w.innerHeight >= w._disqusThreadOffsetTop) {
+    //     w._disqusThis = true;
+    //
+    //     var script = document.createElement('script');
+    //     script.setAttribute('src', 'https://utteranc.es/client.js');
+    //     script.setAttribute('repo', 'ryanhe4/ryanhe4.github.io');
+    //     script.setAttribute('issue-term', 'pathname');
+    //     script.setAttribute('theme', 'github-light');
+    //     script.setAttribute('crossorigin', 'anonymous');
+    //
+    //     commentContainer.appendChild(script);
+    //   }
+    // }
+    // console.log('실행확인')
+    // if (!w._uttLoading) {
+    //   w._uttLoading = true;
+    //
+    //   loadJSDeferred('//utteranc.es/client.js');
+    //
+    //   if (w.addEventListener) w.addEventListener('scroll', loadUtt, {passive: true});
+    //   else if (w.attachEvent) w.attachEvent('onscroll', loadUtt);
+    //   else w.onscroll = loadUtt;
+    // } else {
+    //   w._uttFirst = false;
+    // }
   }(window, document));
 </script>
