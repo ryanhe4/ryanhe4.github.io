@@ -1,6 +1,7 @@
 # Ignore docs files
 _gh_pages
-_site*
+_site
+_drafts
 .ruby-version
 
 # Numerous always-ignore extensions
@@ -11,6 +12,7 @@ _site*
 *.rej
 *.swo
 *.swp
+*.zip
 *.vi
 *~
 
@@ -37,10 +39,9 @@ validation-status.json
 validation-report.json
 
 # Folders to ignore
+_posts_ing
+theorydb.github.io
 node_modules
-vendor/bundle
-.bundle
 .sass-cache
 .jekyll-metadata
 *.gem
-_zip
