@@ -1,6 +1,4 @@
 <script>
-  'use strict';
-
   (function(w, d) {
 
     w._uttLoading = typeof w._uttLoading != 'undefined' ? w._uttLoading : false;
@@ -30,7 +28,7 @@
         commentContainer.appendChild(script);
       }
     }
-
+    console.log('실행확인')
     if (!w._uttLoading) {
       w._uttLoading = true;
 
