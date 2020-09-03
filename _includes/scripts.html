@@ -38,3 +38,7 @@
   {% endcomment %}
   <!--<![endif]-->
 {% endunless %}
+
+{% if site.utterance and page.comments %}
+  {% include /scripts/utterances.html %}
+{% endif %}
