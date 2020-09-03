@@ -8,33 +8,35 @@ description: >
 ---
 - On this Page
 {:toc}
+
 # 시스템 기본 정보
-  **1) uname 명령어**
-  ```python
-  # uname -a  /* 전체 정보 */
-  # uname -s	/* 커널 이름 */
-  # uname -n	/* 호스트 이름 */
-  # uname -r	/* 커널 릴리즈 */
-  # uname -sr	/* 커널 이름과 릴리즈 */
-  # uname -v	/* 커널 버전 */
-  # uname -m	/* 머신 하드웨어 이름 */
-  # uname -p	/* CPU 종류 */
-  # uname -i	/* 하드웨어 구현 플랫폼 */
-  # uname –o 	/* 운영체제 종류 */
-  ```
-  > 한글 Alt + C 명령어
+
+**1) uname 명령어**
+```python
+# uname -a  /* 전체 정보 */
+# uname -s	/* 커널 이름 */
+# uname -n	/* 호스트 이름 */
+# uname -r	/* 커널 릴리즈 */
+# uname -sr	/* 커널 이름과 릴리즈 */
+# uname -v	/* 커널 버전 */
+# uname -m	/* 머신 하드웨어 이름 */
+# uname -p	/* CPU 종류 */
+# uname -i	/* 하드웨어 구현 플랫폼 */
+# uname –o 	/* 운영체제 종류 */
+```
+>한글 Alt + C 명령어
   
-  **운영체제 확인**
-  ```
-  # lscpu
-  # cat/proc/cpuinfo
-  ```
-  **리눅스 version 확인**
-  ```python
-  ls /etc/*release
-  cat /etc/*release
-  ```
-  [참고] [레드헷doc](http://docs.redhat.com/)
+**운영체제 확인**
+```bash
+# lscpu
+# cat/proc/cpuinfo
+```
+**리눅스 version 확인**
+```python
+ls /etc/*release
+cat /etc/*release
+```
+`[참고]` [레드헷doc](http://docs.redhat.com/)
   
   **2) date 명령어**
   
