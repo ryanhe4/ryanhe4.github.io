@@ -315,7 +315,7 @@ $$
 Instead, `aligned` should be used, e.g. `\begin{aligned} ... \end{aligned}`.
 {:.message}
 
-Continue with [Scripts](scripts.md){:.heading.flip-title}
+Continue with [Scripts](../docs/7.5.2/scripts.md){:.heading.flip-title}
 {:.read-more}
 
 
