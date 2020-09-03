@@ -13,8 +13,10 @@
       var commentContainer = document.querySelector('#utterances-comments');
 
       if (!commentContainer) {
+        console.log("없음")
         return;
       }
+      console.log("있음")
       if (!w._disqusThis && !w._uttFirst && scrollTop + w.innerHeight >= w._disqusThreadOffsetTop) {
         w._disqusThis = true;
 
