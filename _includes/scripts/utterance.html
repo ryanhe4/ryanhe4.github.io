@@ -34,6 +34,8 @@
     if (!w._uttLoading) {
       w._uttLoading = true;
 
+      loadJSDeferred('//utteranc.es/client.js');
+
       if (w.addEventListener) w.addEventListener('scroll', loadUtt, {passive: true});
       else if (w.attachEvent) w.attachEvent('onscroll', loadUtt);
       else w.onscroll = loadUtt;
