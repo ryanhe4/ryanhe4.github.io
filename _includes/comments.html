@@ -2,13 +2,15 @@
   <h2>Comments</h2>
   <hr/>
 
-  <div id="utterances-comments"></div>
+  <section id="utterances-comments"></section>
+
+  <script>
+    {% include scripts/load-utterance.js %}
+  </script>
 
 <!--  <script>-->
 <!--    {% include scripts/load-disqus.min.js %}-->
 <!--  </script>-->
-  <div>
-    코멘트 테스트
   <!-- <script src="https://utteranc.es/client.js"
           repo="ryanhe4/ryanhe4.github.io"
           issue-term="pathname"
@@ -17,27 +19,5 @@
           crossorigin="anonymous"
           async>
   </script>-->
-    <script>
-      'use strict';
-
-      (function() {
-        var commentContainer = document.querySelector('#utterances-comments');
-
-        if (!commentContainer) {
-          return;
-        }
-
-        var script = document.createElement('script');
-        script.setAttribute('src', 'https://utteranc.es/client.js');
-        script.setAttribute('repo', '{{ site.repository }}');
-        script.setAttribute('issue-term', '{{ site.comments.utterances.issue_term | default: "pathname" }}');
-        script.setAttribute('theme', '{{ site.comments.utterances.theme | default: "github-light" }}');
-        script.setAttribute('crossorigin', 'anonymous');
-
-        commentContainer.appendChild(script);
-      })();
-    </script>
-
-  </div>
 <!--  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>-->
 </aside>
