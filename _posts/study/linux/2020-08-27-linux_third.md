@@ -6,6 +6,7 @@ tags: linux
 description: >
   Linux 기본 명령어 
 ---
+- On this Page
 {:toc}
 # 기타 관리용 명령어
 

@@ -6,6 +6,7 @@ date: '2020-08-28 09:30:00 +0900'
 description: >
   Linux 기본 명령어 
 ---
+- On this Page
 {:toc}
 # 파일 속성 정보 관리
 

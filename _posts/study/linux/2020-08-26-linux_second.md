@@ -6,6 +6,7 @@ tags: linux
 description: >
   Linux 기본 명령어 
 ---
+- On this Page
 {:toc}
 # 시스템 기본 정보
   **1) uname 명령어**
