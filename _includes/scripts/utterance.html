@@ -1,7 +1,7 @@
 <script>
   'use strict';
 
-  (function() {
+  (function(w, d) {
 
     w._uttLoading = typeof w._uttLoading != 'undefined' ? w._uttLoading : false;
     w._uttFirst = typeof w._uttFirst != 'undefined' ? w._uttFirst : true;
@@ -38,5 +38,5 @@
     } else {
       w._uttFirst = false;
     }
-  }());
+  }(window, document));
 </script>
