@@ -49,8 +49,7 @@ google_fonts:        Lato
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
 #disqus: false
-#disqus_shortname:    theorydb
-
+disqus_shortname:    ryanhe4
 utterance: true
 
 # This text will appear in the footer of every page. Markdown enabled.
