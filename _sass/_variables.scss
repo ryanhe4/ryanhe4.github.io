@@ -36,3 +36,14 @@ $right-sidebar-width: 300px !default;
 $right-sidebar-width-wide: 400px !default;
 
 $dynamic-width: calc(50% - 28rem);
+
+$sans-serif-narrow: $sans-serif !default;
+$border-radius: 4px !default;
+$box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !default;
+
+$type-size-6: 0.75em !default; // ~12px
+$primary-color: #343434 !default;
+$active-color: mix(#fff, $primary-color, 80%) !default;
+$type-size-7: 0.6875em !default; // ~11px
+$muted-text-color: mix(#fff, $text-color, 20%) !default;
+$text-color: #343434 !default;
