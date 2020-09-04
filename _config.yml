@@ -390,7 +390,15 @@ compress_html:
 sass:
   style:               compressed
 
-  
+# jekyll-feed settings
+feed:
+  categories:
+    - dev
+    - study
+    - favorites
+    - project
+
+
 # Jekyll Compose Defaults
 # ---------------------------------------------------------------------------------------
 
