@@ -15,9 +15,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d8ce7e-f7a2-4e06-9227-4bf620017355" name="Default Changelist" comment="Comments">
+    <list default="true" id="41d8ce7e-f7a2-4e06-9227-4bf620017355" name="Default Changelist" comment="home">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/project/po-nag/2020-09-04-Design-web-crawler.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/project/po-nag/2020-09-04-Design-web-crawler.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/study/cartoon/2020-09-04-만화개론01.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/study/cartoon/2020-09-04-만화개론01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/my-inline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/my-inline.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/pooleparty/_code.pre.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/pooleparty/_code.pre.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yangheechan\workspace\ryanhe4.github.io" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yangheechan\workspace\ryanhe4.github.io\_layouts" />
       <recent name="C:\Users\yangheechan\workspace\ryanhe4.github.io" />
@@ -64,7 +69,10 @@
       <workItem from="1599200517500" duration="331000" />
       <workItem from="1599201167780" duration="764000" />
       <workItem from="1599202098493" duration="8533000" />
-      <workItem from="1599210824221" duration="1001000" />
+      <workItem from="1599210824221" duration="1320000" />
+      <workItem from="1599213861498" duration="336000" />
+      <workItem from="1599214988279" duration="3337000" />
+      <workItem from="1599225065436" duration="1677000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1599201354228</created>
@@ -227,7 +235,84 @@
       <option name="project" value="LOCAL" />
       <updated>1599211008935</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Comments">
+      <created>1599211837572</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1599211837572</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Comments">
+      <created>1599212147161</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599212147161</updated>
+    </task>
+    <task id="LOCAL-00026" summary="google_analytics">
+      <created>1599215128994</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599215128994</updated>
+    </task>
+    <task id="LOCAL-00027" summary="google_analytics">
+      <created>1599215890374</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1599215890374</updated>
+    </task>
+    <task id="LOCAL-00028" summary="google_analytics">
+      <created>1599216766640</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1599216766640</updated>
+    </task>
+    <task id="LOCAL-00029" summary="home">
+      <created>1599216805980</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1599216805980</updated>
+    </task>
+    <task id="LOCAL-00030" summary="home">
+      <created>1599217262925</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1599217262925</updated>
+    </task>
+    <task id="LOCAL-00031" summary="home">
+      <created>1599217506225</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1599217506225</updated>
+    </task>
+    <task id="LOCAL-00032" summary="home">
+      <created>1599217648578</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1599217648578</updated>
+    </task>
+    <task id="LOCAL-00033" summary="home">
+      <created>1599218112780</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1599218112780</updated>
+    </task>
+    <task id="LOCAL-00034" summary="home">
+      <created>1599218128736</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1599218128736</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,17 +334,23 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial" />
     <MESSAGE value="Comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments" />
+    <MESSAGE value="google_analytics" />
+    <MESSAGE value="home" />
+    <option name="LAST_COMMIT_MESSAGE" value="home" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599211010101">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599218130611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599211010101" />
-    <state x="904" y="251" width="632" height="552" key="find.popup" timestamp="1599209103471">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599218130611" />
+    <state x="1146" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599225070640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="904" y="251" width="632" height="552" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599209103471" />
+    <state x="1146" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599225070640" />
+    <state x="326" y="267" width="632" height="552" key="find.popup" timestamp="1599226371242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="326" y="267" width="632" height="552" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599226371242" />
     <state x="206" y="243" key="run.anything.popup" timestamp="1599207474774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
