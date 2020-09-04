@@ -10,4 +10,5 @@ date: '2020-09-04 18:30:00 +0900'
 
 ## 웹 크롤러 설계
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRuo9ehhgSOIVkB_V_NCEuhChM_S2bvKHYCK5Ud9NMCA2qlU34AycP3X8LQweCkeaGzqzpYyOAEQq5b/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSvLwPWt06fFBCTaYTB0YqE_2D4MKdKyRjYsmfSIV2aabOV_spkel6mGSVS9htFK0pD7RNlYUGkLsIA/embed?start=false&loop=false&delayms=60000" frameborder="0" width="1920" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
