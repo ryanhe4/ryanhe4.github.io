@@ -17,18 +17,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41d8ce7e-f7a2-4e06-9227-4bf620017355" name="Default Changelist" comment="initial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/authors.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/authors.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/resume.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/resume.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_categories/example.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/body/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/body/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/my-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/my-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/_posts/2012-02-07-example-content.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/_posts/2017-11-23-example-content-ii.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/_posts/2018-06-01-example-content-iii.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/_posts/2020-07-03-introducing-hydejack-9.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_layouts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -59,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yangheechan\workspace\ryanhe4.github.io\_layouts" />
       <recent name="C:\Users\yangheechan\workspace\ryanhe4.github.io" />
     </key>
   </component>
@@ -72,7 +62,7 @@
       <updated>1599200516415</updated>
       <workItem from="1599200517500" duration="331000" />
       <workItem from="1599201167780" duration="764000" />
-      <workItem from="1599202098493" duration="1297000" />
+      <workItem from="1599202098493" duration="1600000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1599201354228</created>
@@ -88,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599202308663</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial">
+      <created>1599203471865</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599203471865</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,10 +108,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599202348442">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599203484387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599202348442" />
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599203484387" />
     <state x="904" y="251" width="632" height="552" key="find.popup" timestamp="1599200589867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
