@@ -15,7 +15,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d8ce7e-f7a2-4e06-9227-4bf620017355" name="Default Changelist" comment="initial" />
+    <list default="true" id="41d8ce7e-f7a2-4e06-9227-4bf620017355" name="Default Changelist" comment="Comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_layouts" />
@@ -59,7 +63,7 @@
       <updated>1599200516415</updated>
       <workItem from="1599200517500" duration="331000" />
       <workItem from="1599201167780" duration="764000" />
-      <workItem from="1599202098493" duration="2592000" />
+      <workItem from="1599202098493" duration="8533000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1599201354228</created>
@@ -110,7 +114,112 @@
       <option name="project" value="LOCAL" />
       <updated>1599204704863</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initial">
+      <created>1599204838110</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599204838110</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial">
+      <created>1599205559963</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599205559963</updated>
+    </task>
+    <task id="LOCAL-00010" summary="initial">
+      <created>1599205900875</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599205900875</updated>
+    </task>
+    <task id="LOCAL-00011" summary="initial">
+      <created>1599206099804</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599206099804</updated>
+    </task>
+    <task id="LOCAL-00012" summary="initial">
+      <created>1599206234346</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599206234346</updated>
+    </task>
+    <task id="LOCAL-00013" summary="initial">
+      <created>1599206449645</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599206449645</updated>
+    </task>
+    <task id="LOCAL-00014" summary="initial">
+      <created>1599206674476</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599206674476</updated>
+    </task>
+    <task id="LOCAL-00015" summary="initial">
+      <created>1599207211006</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599207211006</updated>
+    </task>
+    <task id="LOCAL-00016" summary="initial">
+      <created>1599207307890</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599207307890</updated>
+    </task>
+    <task id="LOCAL-00017" summary="initial">
+      <created>1599207825786</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599207825786</updated>
+    </task>
+    <task id="LOCAL-00018" summary="initial">
+      <created>1599208119906</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599208119906</updated>
+    </task>
+    <task id="LOCAL-00019" summary="initial">
+      <created>1599208356927</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599208356928</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Comments">
+      <created>1599209191535</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599209191535</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Comments">
+      <created>1599210634322</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599210634322</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Comments">
+      <created>1599210727040</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1599210727040</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,21 +238,27 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="Comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599204705900">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599210727939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599204705900" />
-    <state x="904" y="251" width="632" height="552" key="find.popup" timestamp="1599200589867">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599210727939" />
+    <state x="904" y="251" width="632" height="552" key="find.popup" timestamp="1599209103471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="904" y="251" width="632" height="552" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599200589867" />
-    <state x="956" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1599202599497">
+    <state x="904" y="251" width="632" height="552" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599209103471" />
+    <state x="206" y="243" key="run.anything.popup" timestamp="1599207474774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="956" y="214" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599202599497" />
+    <state x="206" y="243" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599207474774" />
+    <state x="956" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1599205848198">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="956" y="214" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599205848198" />
   </component>
 </project>
