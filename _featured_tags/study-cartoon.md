@@ -1,5 +1,5 @@
 ---
-layout: tag-blog
+layout: tag-list
 title: Cartoon
 slug: cartoon
 category: study

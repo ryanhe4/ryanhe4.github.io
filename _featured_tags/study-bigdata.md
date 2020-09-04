@@ -1,5 +1,5 @@
 ---
-layout: tag-blog
+layout: tag-list
 title: Big-data
 slug: big-data
 category: study

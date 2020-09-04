@@ -20,7 +20,7 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Study Blog
@@ -50,17 +50,17 @@ author:
   # twitter:             <username>
 
 # Add links to the sidebar.
-menu:
-  - title:             Dev
-    url:               /dev/
-  - title:             Study
-    url:               /study/
-  - title:             Favorites
-    url:               /favorites/
-  - title:             Project
-    url:               /project/
-  - title:             About
-    url:               /about/
+#menu:
+#  - title:             Dev
+#    url:               /dev/
+#  - title:             Study
+#    url:               /study/
+#  - title:             Favorites
+#    url:               /favorites/
+#  - title:             Project
+#    url:               /project/
+#  - title:             About
+#    url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -76,11 +76,12 @@ legal:
 copyright:             © 2020. All rights reserved.
 
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
+#permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /:num/
+paginate_path:         /page-:num/
+excerpt_separator:     <!--more-->
 
 
 # Collections
@@ -144,6 +145,12 @@ defaults:
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
+
+  - scope:
+      path: about.md
+    values:
+      menu: true
+      order: 1
 
   # Don't include documents in assets in the sitemap
   - scope:
