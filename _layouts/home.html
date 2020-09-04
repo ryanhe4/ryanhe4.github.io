@@ -68,14 +68,14 @@ layout: about
 {% if page.selected_posts %}
   <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
     {% for post_path in page.selected_posts %}
-      {% if major >= 4 and minor >= 1 %}
+      {% if major >= 4 and minor >= 1  %}
         {% assign post = site.posts | find_exp:"post", "post_path == post.path or post_path == post.url" %}
       {% else %}
                          {% assign post = site.posts | where_exp:"post", "post_path == post.path" | first %}
         {% unless post %}{% assign post = site.posts | where_exp:"post", "post_path == post.url"  | first %}{% endunless %}
       {% endif %}
       <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
-        {% if post %}
+        {% if post and post.tag != 'cartoon' %}
           {% include_cached pro/post-card.html post=post featured=featured %}
         {% else %}
           Post with path <code>{{ post_path }}</code> not found.
