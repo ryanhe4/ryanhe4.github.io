@@ -17,7 +17,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41d8ce7e-f7a2-4e06-9227-4bf620017355" name="Default Changelist" comment="Comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/project/po-nag/2020-09-04-Design-web-crawler.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/project/po-nag/2020-09-04-Design-web-crawler.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,7 @@
       <workItem from="1599200517500" duration="331000" />
       <workItem from="1599201167780" duration="764000" />
       <workItem from="1599202098493" duration="8533000" />
+      <workItem from="1599210824221" duration="1001000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1599201354228</created>
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599210727040</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Comments">
+      <created>1599211008935</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1599211008935</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,10 +252,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Comments" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599210727939">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599211010101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599210727939" />
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599211010101" />
     <state x="904" y="251" width="632" height="552" key="find.popup" timestamp="1599209103471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

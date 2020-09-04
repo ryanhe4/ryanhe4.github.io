@@ -10,4 +10,4 @@ date: '2020-09-04 18:30:00 +0900'
 
 ## 웹 크롤러 설계
 
-<iframe src="https://o365nsu-my.sharepoint.com/personal/15100045_office_nsu_ac_kr/_layouts/15/Doc.aspx?sourcedoc={8cc5f612-1583-4770-887d-029d7efd1f80}&amp;action=embedview&amp;wdAr=1.7777777777777776" width="350px" height="221px" frameborder="0">포함된 <a target="_blank" href="https://office.com">Microsoft Office</a> 프레젠테이션, 제공: <a target="_blank" href="https://office.com/webapps">Office</a></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRuo9ehhgSOIVkB_V_NCEuhChM_S2bvKHYCK5Ud9NMCA2qlU34AycP3X8LQweCkeaGzqzpYyOAEQq5b/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
