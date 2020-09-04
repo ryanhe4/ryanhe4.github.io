@@ -7,8 +7,9 @@ description: >
   Linux 기본 명령어 
 date: 2020-08-27 09:33:00 +0900
 ---
-- On this Page
-{:toc}
+Linux 기본 명령어
+
+<!--more-->
 
 # 기타 관리용 명령어
 
