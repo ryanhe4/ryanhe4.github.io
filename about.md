@@ -14,3 +14,12 @@ order: 5
 <!--posts_list-->
 
 ***
+
+***
+
+Blog created by heechan Yang on 9. 4. 2020,<br>
+based on the jekyll theme [Hydejack](https://hydejack.com).
+
+***
+
+<!--author-->
