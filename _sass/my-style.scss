@@ -89,3 +89,19 @@ input[type="checkbox"]:checked ~ ul{
   transition: transform .2s ease-out;
   transform: scaleY(1);
 }
+
+// Resume
+
+.project-date {
+  font-weight: var(--font-weight);
+  display: inline;
+}
+
+// Printing
+
+@media print {
+  a[href]:after {
+    display: none;
+    visibility: hidden;
+  }
+}
