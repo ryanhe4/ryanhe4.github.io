@@ -94,7 +94,7 @@ layout: about
 {% endif %}
 
 {% assign posts_page = page.posts_page | default:page.more_posts %}
-{% if posts_page and post.tags != "cartoon" %}
+{% if posts_page %}
   {% if major >= 4 and minor >= 1 %}
     {% assign more_posts = site.pages | find_exp:"page", "posts_page == page.path or posts_page == page.url" %}
   {% else %}
