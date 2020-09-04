@@ -1,4 +1,5 @@
 ---
+layout: post 
 title: "Linux 기본 명령어 1"
 date: 2020-08-25 15:52:00 +0900
 categories: study

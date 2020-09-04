@@ -1,4 +1,5 @@
 ---
+layout: post 
 title: "Linux 기본 명령어 4"
 categories: study
 tags: linux
