@@ -36,6 +36,7 @@ group :jekyll_plugins do
   gem "jekyll-relative-links"
   gem "jekyll-seo-tag", git: "https://github.com/hydecorp/jekyll-seo-tag"
   gem "jekyll-sitemap"
+  gem "github-pages"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache", git: "https://github.com/hydecorp/jekyll-include-cache"
 

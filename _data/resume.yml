@@ -2,12 +2,12 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
+  name: "heechan"
   label: "Programmer"
   picture: "https://placehold.it/240x240"
-  email: ""
+  email: "ryanhe4@gmail.com"
   phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  website: "https://ryanhe4.github.io"
   summary: >
     Richard hails from Tulsa.
     He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)

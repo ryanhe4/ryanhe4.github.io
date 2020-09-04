@@ -16,187 +16,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41d8ce7e-f7a2-4e06-9227-4bf620017355" name="Default Changelist" comment="initial">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_data/authors.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/authors.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_data/resume.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/resume.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/social.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/social.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/strings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/strings.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/variables.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/variables.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_categories/devlog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_categories/review.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/algorithm.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/blog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/bwtree.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/coding-interview.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/concurrent-programming.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/data-structure.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/development.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/git.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/hardware.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/mac.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/software.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/sublime-text.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/terminal.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_featured_tags/translation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_featured_categories/example.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/body/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/body/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/my-body.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/my-body.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/my-head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/my-head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/pro/resume/awards.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/pro/resume/awards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/pro/resume/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/pro/resume/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/pro/resume/languages.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/pro/resume/languages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/pro/resume/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/resume.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/tag-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Algorithm/2019-01-20-LIS-Algorithm.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Algorithm/2019-03-04-Coding-Interview-Compression-and-Decompression.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Algorithm/2020-05-25-pair.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Algorithm/2020-05-25-quicksort.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Algorithm/2020-06-15-heap.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Algorithm/2020-06-15-queue.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Algorithm/2020-06-15-vector.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Algorithm/2020-08-15-dfs-bfs.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Algorithm/2020-08-17-binray-search.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Bw-Tree/2018-09-28-bw-tree-ppt.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Bw-Tree/2018-11-13-bw-tree-benchmark.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Bw-Tree/2018-11-26-bw-tree-performance-test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Bw-Tree/2019-01-01-bw-tree-update-evaluation.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Bw-Tree/2019-03-29-bw-tree-update-implementation.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Bw-Tree/2019-05-18-bw-tree-tas-implementation-design.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Concurrent Programming/2019-12-05-Possible-Infinite-Loop-in-Lock-Free-Queue.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Concurrent Programming/2019-12-17-Art-of-Multiprocessor-Programming-Summary.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Development/2018-07-25-gitlab-to-github-repo-clone.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Development/2018-08-23-sublime-build-and-execute.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Development/2018-10-09-mac-clean-installation.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Development/2018-10-09-sublime-text-setting.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Development/2020-07-05-hydejack-post-writing-tips-tricks.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/devlog/Development/2020-08-02-how-i-customized-hydejack-theme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/review/2020-06-28-Odyssey-G9-Review.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/my-inline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/my-inline.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/my-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/my-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/pro/_resume.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/pro/_resume.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icomoon/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icomoon/selection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icomoon/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icomoon/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2018-08-23/build_system.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2018-10-09/Screen Shot 2018-10-08 at 3.18.34 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2018-10-09/Screen Shot 2018-10-09 at 3.48.07 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2018-10-09/Screen Shot 2018-10-09 at 4.17.52 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2018-10-09/Screen Shot 2018-10-09 at 4.18.00 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2018-10-09/Screen Shot 2018-10-09 at 4.19.47 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2018-10-09/Screen Shot 2018-10-09 at 4.19.49 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2018-10-09/Screen Shot 2018-10-09 at 4.19.51 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2018-10-09/Screen Shot 2018-10-09 at 4.19.53 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2018-10-09/Screen Shot 2018-10-09 at 5.35.56 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/10insert1thread.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/10insert4thread.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/10insert8thread.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/5insert1thread.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/5insert4thread.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/5insert8thread.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/8insert1thread.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/8insert4thread.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/8insert8thread.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/Screen Shot 2018-11-12 at 11.28.52 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/Screen Shot 2018-11-12 at 11.41.51 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/Screen Shot 2018-11-13 at 12.09.17 AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/Screen Shot 2018-11-13 at 12.09.33 AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/Screen Shot 2018-11-13 at 12.23.51 AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/create_input.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/graph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/perf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-03/table.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/cpu time graph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/elapsed time graph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/skew perf report.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/skew result.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/uniform perf report.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/uniform result.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/update per sec graph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/update test result 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/update test result 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/update test result 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/update test result 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-01-05/update test result 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-03-04/CaDexample.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-03-04/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-05-18/delta_node.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/clh lock-6472926.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/clh lock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/elimination array.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/equivalent histories.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/exception notation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/history.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/interval.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/invocation notation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/legal sequential history.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/linearizable object.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/mcs lock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/mrmw atomic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/mrsw atomic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/multi-value.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/object projections.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/precedence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/regular is not linearizable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/response notation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/safe to atomic snapshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/sequential histories.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/thread projections.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/wait-free computation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2019-12-17/wait-free snapshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/apex_split.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/blog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/coh2_ingame.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/coh2_loading.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/coh2_split.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/fancyzone.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/fancyzones_setting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/g9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/g9_delivered.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/grid2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/grid3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/lostark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/magic_borderless.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/magic_borderless_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-06-28/magic_borderless_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-08-02/nav_html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-08-02/showcase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-08-02/sidebar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/2020-08-17/soju.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/LR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/seattle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/sidebar-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/sidebar-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/wait-free-queue/001.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/wait-free-queue/002.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/wait-free-queue/003.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/wait-free-queue/004.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/wait-free-queue/005.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/wait-free-queue/006.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/wait-free-queue/007.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/wait-free-queue/008.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/presentation/Bw-Tree Presentation.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/presentation/TAS.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/presentation/cannot_TAS.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/presentation/new_update_design.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/presentation/wait free queue.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/navera03014a241218f942080c56d67e79469.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/projects.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.md" beforeDir="false" afterPath="$PROJECT_DIR$/resume.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/_posts/2012-02-07-example-content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/_posts/2017-11-23-example-content-ii.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/_posts/2018-06-01-example-content-iii.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/_posts/2020-07-03-introducing-hydejack-9.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,13 +49,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../workspace/crawlerbackend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yangheechan\workspace\ryanhe4.github.io" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -235,6 +72,7 @@
       <updated>1599200516415</updated>
       <workItem from="1599200517500" duration="331000" />
       <workItem from="1599201167780" duration="764000" />
+      <workItem from="1599202098493" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1599201354228</created>
@@ -243,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599201354228</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial">
+      <created>1599202308663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599202308663</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,13 +111,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599201356183">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599202348442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599201356183" />
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599202348442" />
     <state x="904" y="251" width="632" height="552" key="find.popup" timestamp="1599200589867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="904" y="251" width="632" height="552" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599200589867" />
+    <state x="956" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1599202599497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="956" y="214" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599202599497" />
   </component>
 </project>
