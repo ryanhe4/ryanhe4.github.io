@@ -1,4 +1,5 @@
 ---
+hidden: true
 layout: tag-list
 title: Cartoon
 slug: cartoon
@@ -8,5 +9,4 @@ submenu: true
 order: 4
 description: >
    think and study Univ-Cartoon
-hidden: true
 ---
