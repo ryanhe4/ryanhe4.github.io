@@ -12,6 +12,21 @@
     margin: 1rem 0;
   }
 }
+.dl-table {
+  a {
+    padding-bottom: 0.4rem;
+  }
+
+  .btn {
+    margin: 1.5rem 0;
+  }
+}
+
+// Remove menu button from the top
+
+#_menu {
+  display:none;
+}
 
 // Sidebar Modification
 
@@ -100,8 +115,8 @@ input[type="checkbox"]:checked ~ ul{
 // Printing
 
 @media print {
-  a[href]:after {
-    display: none;
-    visibility: hidden;
-  }
+   a[href]:after {
+      display: none;
+      visibility: hidden;
+   }
 }
