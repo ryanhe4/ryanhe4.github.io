@@ -46,6 +46,7 @@ author:
   # Used by `jekyll-feed`:
   name:                heechan yang
   email:               ryanhe4@gmail.com
+  picture: /assets/img/me.jpg
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -64,19 +65,20 @@ author:
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+#legal:
+#  - title:             LICENSE
+#    url:               /LICENSE/
+#  - title:             NOTICE
+#    url:               /NOTICE/
+#  - title:             CHANGELOG
+#    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2020. All rights reserved.
 
 # Format of the permalinks
 #permalink:             /:categories/:year-:month-:day-:title/
+permalink: none
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
@@ -138,29 +140,17 @@ font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
 defaults:
   # You can use this to provide a default accent color and background for
   # all pages under a given path:
-  - scope:
-      path:            hyde/
-    values:
-      accent_color:    rgb(38,139,210)
-      accent_image:
-        background:    rgb(32,32,32)
-        overlay:       false
-
-  - scope:
-      path: about.md
-    values:
-      menu: true
-      order: 1
+#  - scope:
+#      path:            hyde/
+#    values:
+#      accent_color:    rgb(38,139,210)
+#      accent_image:
+#        background:    rgb(32,32,32)
+#        overlay:       false
 
   # Don't include documents in assets in the sitemap
   - scope:
       path:            assets/
-    values:
-      sitemap:         false
-
-  # Don't include licenses in sitemap (feel free to delete)
-  - scope:
-      path:            licenses/
     values:
       sitemap:         false
 
@@ -216,13 +206,13 @@ utterance:             true
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related, random, comments]
+  post_addons:         [about, comments]
 
   # Configure the order of complementary content on project pages
-  project_addons:      [about, newsletter, other, comments]
+  project_addons:      [about,  other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    false
+  no_mark_external:    true
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
@@ -261,7 +251,7 @@ hydejack:
   no_third_column:     false
 
   # Set to `true` if you don't like oversized headlines on large screens.
-  no_large_headings:   false
+  no_large_headings:   true
 
   # Set to `true` if you do not want to expose your resume and projects
   # in machine-readable formats.
