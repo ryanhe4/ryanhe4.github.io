@@ -3,8 +3,6 @@ layout: post
 title: "Linux 기본 명령어 3"
 categories: study
 tags: linux
-description: >
-  Linux 기본 명령어 
 date: 2020-08-27 09:33:00 +0900
 ---
 Linux 기본 명령어

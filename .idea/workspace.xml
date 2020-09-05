@@ -16,7 +16,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41d8ce7e-f7a2-4e06-9227-4bf620017355" name="Default Changelist" comment="home">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/project/po-nag/2020-09-04-Design-web-crawler.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/project/po-nag/2020-09-04-Design-web-crawler.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/study/linux/2020-08-25-linux-first.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/study/linux/2020-08-25-linux-first.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/study/linux/2020-08-26-linux_second.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/study/linux/2020-08-26-linux_second.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/study/linux/2020-08-27-linux_third.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/study/linux/2020-08-27-linux_third.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/study/linux/2020-08-28-linux_basic_4.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/study/linux/2020-08-28-linux_basic_4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/univ/2020-09-일본의이해1강.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/study/japan/2020-09-일본의이해1강.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +76,7 @@
       <workItem from="1599214988279" duration="3337000" />
       <workItem from="1599225065436" duration="2734000" />
       <workItem from="1599228322198" duration="1842000" />
+      <workItem from="1599274358837" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1599201354228</created>
@@ -366,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599229839738</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="home">
+      <created>1599274407492</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1599274407492</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
