@@ -1,7 +1,7 @@
 ---
 layout: tag-list
 title: Big-data
-slug: big-data
+slug: bigdata
 category: study
 menu: false
 submenu: true
