@@ -1,6 +1,6 @@
 ---
 layout: tag-list
-title: Big-data
+title: Bigdata
 slug: bigdata
 category: study
 menu: false
