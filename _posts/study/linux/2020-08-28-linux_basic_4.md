@@ -10,6 +10,9 @@ Linux 기본 명령어
 
 <!--more-->
 
+* toc table
+{:toc}
+
 # 파일 속성 정보 관리
 
 >chown CMD
