@@ -4,6 +4,7 @@ title: "Linux 기본 명령어 3"
 categories: study
 tags: linux
 date: 2020-08-27 09:33:00 +0900
+image: assets/img/blog/steve-harvey.jpg
 ---
 Linux 기본 명령어
 
