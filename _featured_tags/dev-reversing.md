@@ -5,7 +5,7 @@ slug: reversing
 category: dev
 menu: false
 submenu: true
-order: 3
+order: 4
 description: >
-   think and study C++ Reverse Engineering
+   think and study Reverse Engineering
 ---
