@@ -10,7 +10,7 @@ Linux 기본 명령어
 <!--more-->
 
 * toc table
-{:toc}
+{:toc}1
 
 # 기타 관리용 명령어
 
