@@ -206,3 +206,8 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
+
+leetcode:
+  name: LeetCode
+  icon: icon-leetcode
+  prepend: "https://leetcode.com/"
