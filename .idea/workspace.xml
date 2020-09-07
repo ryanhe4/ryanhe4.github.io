@@ -16,18 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41d8ce7e-f7a2-4e06-9227-4bf620017355" name="Default Changelist" comment="algorithm.md">
-      <change afterPath="$PROJECT_DIR$/assets/icomoon/icomoon/Read Me.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icomoon/icomoon/demo-files/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icomoon/icomoon/demo-files/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icomoon/icomoon/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icomoon/icomoon/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icomoon/icomoon/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icomoon/icomoon/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icomoon/icomoon/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icomoon/icomoon/selection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icomoon/icomoon/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/social.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/social.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +76,7 @@
       <workItem from="1599282815141" duration="879000" />
       <workItem from="1599284185455" duration="8540000" />
       <workItem from="1599307619999" duration="1025000" />
-      <workItem from="1599360184709" duration="965000" />
-    </task>
-    <task id="LOCAL-00016" summary="initial">
-      <created>1599207307890</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1599207307890</updated>
+      <workItem from="1599360184709" duration="1780000" />
     </task>
     <task id="LOCAL-00017" summary="initial">
       <created>1599207825786</created>
@@ -432,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599318958018</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="algorithm.md">
+      <created>1599361284810</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1599361284811</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,10 +456,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="514" y="100" width="1099" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599283537651" />
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599318959334">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1599361286157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599318959334" />
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599361286157" />
     <state x="1161" y="159" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599297113786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
