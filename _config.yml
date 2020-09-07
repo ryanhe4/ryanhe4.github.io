@@ -140,6 +140,7 @@ defaults:
       type:            posts
     values:
       comments:        true
+      image: assets/img/sidebar-bg.jpg
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -310,6 +311,7 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - .idea
 include:
   - .well-known
   - LICENSE.md
