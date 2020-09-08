@@ -162,4 +162,3 @@ PATTERNS: *, ., ^root, root$, [abc], [a-c], [^a]
 **[참고] pcre(perl compatable regular expression) 변형 => grep RE**<br> 
     * **egrep(Extended grep) CMD** : 패턴 여러개 검색  
     * **fgrep(fixed grep) CMD** : 특수기호 검색 가능
->find cmd  
