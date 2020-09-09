@@ -115,3 +115,7 @@ input[type="checkbox"]:checked ~ ul{
       visibility: hidden;
    }
 }
+
+clap-button {
+  --clap-button-color: var(--accent-color);
+}

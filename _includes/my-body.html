@@ -40,3 +40,14 @@ Example code for using Matamo as alternative analytics solution.
 </script>
 {% endif %}
 {% endcomment %}
+
+<script type="module">
+  document.getElementById('_pushState').addEventListener('load', (e) => {
+    const main = document.querySelector('main')
+    const clapBtn = document.createElement('clap-button');
+
+    const dingbat = main.querySelector('.dingbat');
+    if (dingbat) dingbat.parentNode.replaceChild(clapBtn, dingbat);
+    else if (!main.querySelector('clap-button')) main.appendChild((clapBtn.hidden = true, clapBtn));
+  });
+</script>
