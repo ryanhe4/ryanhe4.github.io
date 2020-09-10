@@ -104,6 +104,7 @@ CPU 많이 점유하는 프로세스가 존재하는 경우
     # ssh-keygen  -t rsa
     # ssh-copy-id -i ~/.ssh/id_rsa.pub root@serverB(ip)
     ``` 
+  
 ## 리눅스 서버 관리자 
 >디렉토리 구조와 용도
 {:.lead}
