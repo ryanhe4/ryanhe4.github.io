@@ -1,12 +1,11 @@
 {% assign post = page %}
-{% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
 
 {% if page.related_posts %}
   {% if major >= 4 and minor >= 1 %}
-    {% assign related_posts = site.posts[random] | where_exp:"post", "page.related_posts contains post.path or page.related_posts contains post.url" %}
+    {% assign related_posts = site.posts | where_exp:"post", "page.related_posts contains post.path or page.related_posts contains post.url" %}
   {% else %}
-    {% assign related_posts_1 = site.posts[random] | where_exp:"post", "page.related_posts contains post.path" %}
-    {% assign related_posts_2 = site.posts[random] | where_exp:"post", "page.related_posts contains post.url" %}
+    {% assign related_posts_1 = site.posts | where_exp:"post", "page.related_posts contains post.path" %}
+    {% assign related_posts_2 = site.posts | where_exp:"post", "page.related_posts contains post.url" %}
     {% assign related_posts = related_posts_1 | concat:related_posts_2 %}
   {% endif %}
 {% elsif site.hydejack.use_lsi or site.use_lsi %}
