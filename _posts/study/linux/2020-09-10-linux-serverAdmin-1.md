@@ -67,6 +67,31 @@ NETWORK     : ifconfig -a(ip addr)
         - Primary Partition(1-4)
         - Extended Partition
             * Logical Partition[5-15])
+    * 파티션 작업
+        ```console
+        # fdisk /dev/sdb
+        # ls -l /dev/sdb*
+        # fdisk -l /dev/sdb
+        # lsblk
+        ```            
                    
-1. **파일시스템 작업**       
-1. **마운트 작업**     
+1. **파일시스템 작업**    
+    * 파일시스템이란?
+        파일을 저장하고 관리하는 구조 체계
+    * 파일시스템의 종류
+        - ext3
+        - ext4
+        - xfs
+    * 파일시스템 구조
+    ```console
+    # dumpe2fs /dev/sdb1
+    # tune2fs -l /dev/sdb1
+    ```
+    * 파일시스템 작업
+    ```console
+    # mkfs -t ext3|ext4|xfs /dev/sdb1
+    # dumpe2fs /dev/sdb1 | head -30
+    # tune2fs -l /dev/sdb1
+    ```           
+1. **마운트 작업**
+1. **파일시스템 점검**
