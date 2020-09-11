@@ -29,13 +29,15 @@ tags: linux
 |/tmp|임시 파일들을 위한 디렉토리|      
 
 **시스템 기본정보 확인 명령어**
-Hostname    : hostname
-OS          : uname -a, cat /etc/redhat-release
-CPU         : cat /proc/cpuinfo(lscpu)
-MEM         : free, cat /proc/meminfo
-DISK        : fdisk -l(lsblk)
-NETWORK     : ifconfig -a(ip addr)
-              netstat -nr(ip route)         
+|시스템 명     |명령어                             |
+|:-----------|:---------------------------------|
+|Hostname    | hostname                         |
+|OS          | uname -a, cat /etc/redhat-release|
+|CPU         | cat /proc/cpuinfo(lscpu)         |
+|MEM         | free, cat /proc/meminfo          |
+|DISK        | fdisk -l(lsblk)                  |
+|NETWORK     | ifconfig -a(ip addr) <br> netstat -nr(ip route)           |
+                             
 
 ## 장치관리    
 1. **디스크 장치 인식 작업**

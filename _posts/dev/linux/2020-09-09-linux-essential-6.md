@@ -18,10 +18,10 @@ tags: linux
 
 **명령어 히스토리(Command History)**<br>
 히스토리 사용 변수들 <br>
-HISTFILE=512<br>
-HISTFILE=$HOME/.bash_history<br>
-HISTFILESIZE=512<br>
-HISTTIMEFORMAT="%F %T    "
+* HISTFILE=512<br>
+* HISTFILE=$HOME/.bash_history<br>
+* HISTFILESIZE=512<br>
+* HISTTIMEFORMAT="%F %T    //탭, 공백4칸"
 
 **엘리어스(alias)**<br>
 ```console
