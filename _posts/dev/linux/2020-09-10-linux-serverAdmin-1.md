@@ -32,12 +32,12 @@ tags: linux
 
 |시스템 명     |명령어                             |
 |:-----------|:---------------------------------|
-|Hostname    | hostname                         |
-|OS          | uname -a, cat /etc/redhat-release|
-|CPU         | cat /proc/cpuinfo(lscpu)         |
-|MEM         | free, cat /proc/meminfo          |
-|DISK        | fdisk -l(lsblk)                  |
-|NETWORK     | ifconfig -a(ip addr) <br> netstat -nr(ip route)           |
+|Hostname    |# hostname                         |
+|OS          |# uname -a<br># cat /etc/redhat-release|
+|CPU         |# cat /proc/cpuinfo (# lscpu)         |
+|MEM         |# free<br># cat /proc/meminfo          |
+|DISK        |# fdisk -l(lsblk)                  |
+|NETWORK     |# ifconfig -a(ip addr) <br># netstat -nr(ip route)           |
                              
 
 ## 장치관리    
@@ -79,8 +79,8 @@ tags: linux
 ```            
                    
 ### 3. 파일시스템 작업    
-* 파일시스템이란?
-        파일을 저장하고 관리하는 구조 체계
+* `파일시스템`이란?<br>
+  파일을 저장하고 관리하는 구조 체계
 * 파일시스템의 종류
     - ext3
     - ext4
@@ -148,6 +148,7 @@ tags: linux
         ```
     - mount -a (/etc/fstab) 마운트 할 만한 정보를 모두 마운트 하는 명령어
     - umount -a (/etc/fstab) 마운트 되어 있는 자원을 모두 해제할 때 사용하는 명령어
+    
 ### 5. 파일시스템 점검
 ```console
 # fsck [-y] /dev/sdb1
@@ -175,6 +176,7 @@ tags: linux
 # badblocks -v /dev/sdb1
 # e2fsck -cpfv /dev/sdb1
 ```   
+
 ### 6. 파일시스템 모니터링
 
 다음과 같이 `df CMD`, `du CMD`, `find CMD`는 같이 사용될 수 있다.
