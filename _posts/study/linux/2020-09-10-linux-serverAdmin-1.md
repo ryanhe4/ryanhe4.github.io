@@ -95,3 +95,30 @@ NETWORK     : ifconfig -a(ip addr)
     ```           
 1. **마운트 작업**
 1. **파일시스템 점검**
+    ```console
+    # fsck [-y] /dev/sdb1
+    # fsck.ext4 [-y] /dev/sdb1
+    ```
+    * fsck -y 로그 저장
+        ```console
+        # script -a fsck.log
+        # fsck -y /dev/sdb1
+        # exit
+        # cat fsck.log
+        ```
+    * 슈퍼블럭 복구(superblock recovery)
+        - 자동으로 복구되는 경우
+        ```console
+        # fsck /dev/sdb1
+        ```
+        - 수동으로 복구하는 경우
+        ```console
+        # dumpe2fs /dev/sdb1 | grep -i superblock
+        # e2fsck -b 8193 /dev/sdb1
+        ```
+    * 배드블록 복구 
+        ```console
+        # badblocks -v /dev/sdb1
+        # 
+        ``` 
+1. **파일시스템 모니터링**
