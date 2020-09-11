@@ -3,7 +3,7 @@
 {% assign random_posts = site.posts | where_exp:"post", "post.url != page.url"| where_exp:"post", "post.tags.first == page.tags.first" | sample:3 %}
 
 {% if random_posts.size < 3 %}
-  {% assign random_posts2 = site.posts | where_exp:"post", "post.url != page.url"| where_exp:"post", "post.categories.first == page.categories.first" | sample:3-random_posts.size %}
+  {% assign random_posts2 = site.posts | where_exp:"post", "post.url != page.url"| where_exp:"post", "post.categories.first == page.categories.first" | sample:"3-random_posts.size" %}
   {% assign random_posts = random_posts| concat:random_posts2 %}
 {% endif %}
 
