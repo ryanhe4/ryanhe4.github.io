@@ -2,7 +2,7 @@
 layout: post
 title: "리눅스 서버 관리1"
 date: 2020-09-10 09:16:00 +0900
-categories: study
+categories: dev
 tags: linux 
 ---
 리눅스 필수 명령어
@@ -37,10 +37,7 @@ DISK        : fdisk -l(lsblk)
 NETWORK     : ifconfig -a(ip addr)
               netstat -nr(ip route)         
 
-## 장치관리
->장치 관리
-{:.lead}       
-
+## 장치관리    
 1. **디스크 장치 인식 작업**
     * Disk 물리적 구조 (sector -> track -> cylinder -> partition -> disk)
     * Disk 종류: IDE(SATA), SCSI(SAS), SSD
@@ -94,6 +91,20 @@ NETWORK     : ifconfig -a(ip addr)
     # tune2fs -l /dev/sdb1
     ```           
 1. **마운트 작업**
+>mount CMD, /etc/fstab
+{:.lead}
+ 
+    * mount 확인
+        ```
+        # df -k => 마운트 유무 확인
+        # mount => 마운트 옵션
+        # lsblk
+        ```  
+    * mount 관련 파일들
+        /etc/mtab   :현재 마운트된 정보
+        /etc/fstab  : 부팅시에 마운트 할 만한 정보
+    * mount 
+    * mount 
 1. **파일시스템 점검**
     ```console
     # fsck [-y] /dev/sdb1
@@ -119,6 +130,13 @@ NETWORK     : ifconfig -a(ip addr)
     * 배드블록 복구 
         ```console
         # badblocks -v /dev/sdb1
-        # 
+        # e2fsck -cpfv /dev/sdb1
         ``` 
 1. **파일시스템 모니터링**
+    다음과 같이 `df CMD`, `du CMD`, `find CMD`는 같이 사용될 수 있다.
+    ```console
+   # df -k
+   # du -sk /var
+   # cd /var; du -sk * | sort -nr | more
+   # find /var -size +300M -type f
+    ```       

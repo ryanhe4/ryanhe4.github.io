@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "Linux 기본 명령어 4"
-categories: study
+categories: dev
 tags: linux
 date: '2020-08-28 09:30:00 +0900'
 image: assets/img/blog/steve-harvey.jpg

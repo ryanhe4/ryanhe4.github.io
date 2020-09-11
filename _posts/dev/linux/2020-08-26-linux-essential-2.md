@@ -2,7 +2,7 @@
 layout: post 
 title: "Linux 기본 명령어 2"
 date: 2020-08-26 09:31:00 +0900
-categories: study
+categories: dev
 tags: linux
 image: assets/img/blog/steve-harvey.jpg
 ---

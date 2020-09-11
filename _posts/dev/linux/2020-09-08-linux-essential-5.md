@@ -2,7 +2,7 @@
 layout: post 
 title: "Linux 기본 명령어 5"
 date: 2020-09-08 09:32:00 +0900
-categories: study
+categories: dev
 tags: linux 
 ---
 리눅스 명령어 정리 입니다.
