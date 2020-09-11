@@ -41,7 +41,7 @@ NETWORK     : ifconfig -a(ip addr)
 >장치 관리
 {:.lead}       
 
-1. **장치 인식 작업**
+1. **디스크 장치 인식 작업**
     * Disk 물리적 구조 (sector -> track -> cylinder -> partition -> disk)
     * Disk 종류: IDE(SATA), SCSI(SAS), SSD
     * Disk 이름 체계
@@ -53,7 +53,7 @@ NETWORK     : ifconfig -a(ip addr)
         1. Power OFF
         1. Disk 장착
         1. Power ON <br>
-        ```bash
+        ```console
         # ls -l /dev/sd?
         # fdisk -l
         # lsblk
