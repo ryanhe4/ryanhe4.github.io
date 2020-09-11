@@ -42,7 +42,7 @@ tags: linux
 
 ## 장치관리    
 1. **디스크 장치 인식 작업**
-    * Disk 물리적 구조 (sector -> track -> cylinder -> partition -> disk)
+    * Disk 물리적 구조 (`sector` -> `track` -> `cylinder` -> `partition` -> `disk`)
     * Disk 종류: IDE(SATA), SCSI(SAS), SSD
     * Disk 이름 체계
         - IDE: /dev/hda, /dev/hdb, /dev/hdc, /dev/hdd
@@ -118,8 +118,8 @@ tags: linux
         # mount => 마운트 옵션
         # lsblk
         ```  
-   * mount 관련 파일들
-        /etc/mtab   :현재 마운트된 정보
+   * mount 관련 파일들<br>
+        /etc/mtab   :현재 마운트된 정보<br>
         /etc/fstab  : 부팅시에 마운트 할 만한 정보
    * mount 관련 명령어들
         - mount CMD 
@@ -174,7 +174,8 @@ tags: linux
         # badblocks -v /dev/sdb1
         # e2fsck -cpfv /dev/sdb1
         ``` 
-1. **파일시스템 모니터링**
+### 파일시스템 모니터링     
+1. **파일시스템 모니터링**<br>
     다음과 같이 `df CMD`, `du CMD`, `find CMD`는 같이 사용될 수 있다.
     ```console
    # df -k
