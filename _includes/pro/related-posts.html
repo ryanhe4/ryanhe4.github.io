@@ -1,4 +1,5 @@
 {% assign post = page %}
+{% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
 
 {% if page.related_posts %}
   {% if major >= 4 and minor >= 1 %}
@@ -22,7 +23,7 @@
 <aside class="other-projects related mb0" role="complementary">
   <h2>{{ site.data.strings.related_posts | default:"Related Posts" }}</h2>
   <div class="columns">
-    {% for post in related_posts limit:2 %}
+    {% for post in related_posts[random] limit:2 %}
       <div class="column column-1-2">
         {% if post %}
           {% include_cached pro/post-card.html post=post %}
