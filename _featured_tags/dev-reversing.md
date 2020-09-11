@@ -5,7 +5,7 @@ slug: reversing
 category: dev
 menu: false
 submenu: true
-order: 4
+order: 5
 description: >
    think and study Reverse Engineering
 ---

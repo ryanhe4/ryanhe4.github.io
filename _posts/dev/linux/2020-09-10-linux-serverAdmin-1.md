@@ -47,6 +47,9 @@ NETWORK     : ifconfig -a(ip addr)
         - Virtual: /dev/vda, /dev/vdb, /dev/vdc, ...
     * 장치 인식 작업
         1. systemd-udevd.service 서비스 확인
+            ```console
+            # systemclt list-unit-files | grep -i udev
+            ```
         1. Power OFF
         1. Disk 장착
         1. Power ON <br>
@@ -62,8 +65,8 @@ NETWORK     : ifconfig -a(ip addr)
         + parted CMD : 2TB 이상
     * 파티션의 종류 & 이름체계
         - Primary Partition(1-4)
-        - Extended Partition
-            * Logical Partition[5-15])
+        - Extended Partition <br/>
+         => Logical Partition[5-15])
     * 파티션 작업
         ```console
         # fdisk /dev/sdb
@@ -89,26 +92,58 @@ NETWORK     : ifconfig -a(ip addr)
     # mkfs -t ext3|ext4|xfs /dev/sdb1
     # dumpe2fs /dev/sdb1 | head -30
     # tune2fs -l /dev/sdb1
+    ```
+    * minfree
+    ```console
+    # mfks -m 10 /dev/sdb1
+    # tune2fs -m 1 dev/sdb1
+    ```
+    * 파일시스템 풀(full)인 경우의 작업 절차(target: /waslogs)
+    ```console
+    # tune2fs -m 1 /dev/sdb1 (/waslogs -> /dev/sdb1)
     ```           
+      로그 분석 잡업 & 파일 삭제 작업 => confirm
+    * df 출력 결과에 대한 해석<br>
+        `total` = `Used` + `Avail` + `minfree`
 1. **마운트 작업**
->mount CMD, /etc/fstab
-{:.lead}
+    >mount CMD, /etc/fstab
+    {:.lead}
  
-    * mount 확인
+   * mount 확인
         ```
         # df -k => 마운트 유무 확인
         # mount => 마운트 옵션
         # lsblk
         ```  
-    * mount 관련 파일들
+   * mount 관련 파일들
         /etc/mtab   :현재 마운트된 정보
         /etc/fstab  : 부팅시에 마운트 할 만한 정보
-    * mount 관련 명령어들
-        - mount CMD
+   * mount 관련 명령어들
+        - mount CMD 
+        ```console
+        # mount [-t ext4] [-o defaults] /dev/sdb1 /testmount
+        -t ext4: ext3, ext4, xfs, iso9660, vfat, nfs, ....
+        -o defaults: rw, suid, dev, exec, auto, nouser, async
+        # mount -o remount, rw /
+        # mount -o nosuid /home
+        # mount /home (/etc/fstab, 정확히 기입했나 확인)
+        ```
+        ```
+        [옵션]: noatime => /var
+               ro
+               nosuid => /home
+        ```
         - umount CMD
-        - mount -a
-        - umount -a
-    * 기타 마운트 관리
+            + Busy File System 대한 umount 방법
+            ```console
+            # umount /home
+            # fuser -cu /home (# lsof /home)
+            # wall "Regular PM works with /home. (13:00 - 14:00)"
+            # fuser -ck /home
+            # umount /home
+            ```
+        - mount -a (/etc/fstab) 마운트 할 만한 정보를 모두 마운트 하는 명령어
+        - umount -a (/etc/fstab) 마운트 되어 있는 자원을 모두 해제할 때 사용하는 명령어
 1. **파일시스템 점검**
     ```console
     # fsck [-y] /dev/sdb1
@@ -144,3 +179,11 @@ NETWORK     : ifconfig -a(ip addr)
    # cd /var; du -sk * | sort -nr | more
    # find /var -size +300M -type f
     ```       
+
+>디스크 추가 작업 순서 정리
+{:.lead}
+
+1. 디스크 인식(systemd-udevd.service)
+1. 파티션 설정(# fdisk /dev/sdc)
+1. 파일시스템 작업(# mkfs.ext4 /dev/sdc1)
+1. 마운트 작업(# mount /dev/sdc1 /oracle, /etc/fstab)
