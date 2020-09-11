@@ -177,7 +177,7 @@ $ find / -name core -type f 2>/dev/null
 ~~~
 
 {:.note title="관리자에게 report 메일 전송하기"}
-```bash
+```console
 # mail -s "linux2XX: OK" admin@example.com < report.txt
 ```
 **파이프(Pipe)**
@@ -205,7 +205,7 @@ $ find / -name core -type f 2>/dev/null
 # script -a /dev/null | tee /dev/pts/# | tee /dev/pts/# ..  //쉘 공유 설정
 ~~~
 **쉘 자체의 기능**
-```bash
+```console
 # set -o
 # set -o vi         // 옵션 ON
 # set +o vi         // 옵션 OFF

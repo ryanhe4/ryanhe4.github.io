@@ -31,7 +31,7 @@ Linux 기본 명령어
 >한글 Alt + C 명령어
   
 **운영체제 확인**
-```bash
+```console
 # lscpu
 # cat/proc/cpuinfo
 ```
@@ -156,7 +156,7 @@ cat /etc/*release
 OPTIONS: -i, -f
 ```
 [참고] 와일드 카드 문자: 하나의 문자가 여러개의 문자의 의미를 포함하는 문자
-   ```bash
+   ```console
    \* : 0 or more character (except .file) 	(EX) # cp file* dir1)
    ? : one charater                       	(EX) # cp file? dir1)
    { } : 선택적인 하나의 문자열(단어)       	(EX) # cp file{apple,bannar,orange} dir1
@@ -223,14 +223,14 @@ OPTIONS: -f, -i, -r
 > wc CMD
 
   데이터 수집(Data Gathering)
-  ```bash
+  ```console
   # ps -ef | wc -1
   # ps -ef | grep httpd | wc -1
   # cat /etc/passwd | wc -1
   # rpm -qa | wc -1
   # df -hT -t ext4 / | tail -1 | awk '{print $6}'
   ```
- ```bash
+ ```console
  # cat /var/log/mesages | \\ 
    grep 'Aug 30' | \
    grep 'systemd-logind'| \\   

@@ -49,7 +49,7 @@ OPTIONS : -R
 * **특수퍼미션**    
     - SetUID/SetGID/Sticky Bit 의미
     - SetUID/SetGID/Sticky Bit 설정    
-     ```bash
+     ```console
      # chmod 4755 file1
      # chmod 2755 file1
      # chmod 1777 dir1
@@ -61,7 +61,7 @@ OPTIONS : -R
 # find / \( -perm -4000 -o -perm -2000\) -type f
 ```
 * **목록화 방법/카운터**
-```bash
+```console
 # find / \( -perm -4000 -o -perm -2000 \) > setuid.txt
 # find / \( -perm -4000 -o -perm -2000 \) | wc -l > setuid.txt
 # diff setuid.txt setuid.old.txt
@@ -116,11 +116,11 @@ set tapstop=4 (set ts=4)
  
 * 파일 비교할때 사용하는 명령어
  백업 설정 파일, 현재 설정 파일 비교 
-```bash
+```console
 # diff httpd.conf httpd.conf.old
 ```
 * Migration 확인 작업(# cp -a) 
-```bash
+```console
 # find /was1 | wc -l
 # find /was2 | wc -l
 =============================
@@ -130,7 +130,7 @@ set tapstop=4 (set ts=4)
 >sort CMD
 
 CMD의 내용에 대한 정렬 명령어
-```bash
+```console
 # CMD | sort -k 3
 # CMD | sort -k 3 -r
 [예] 파일 시스템 디렉토리 용량 점검
@@ -142,14 +142,14 @@ CMD의 내용에 대한 정렬 명령어
 
 **파일의 타입 결정(확인)에 사용**
     
-```bash
+```console
 # file *
 ```
 # 검색관련 명령어 
  
 >grep cmd
      
-```bash
+```console
 # grep OPTIONS PATTERN file1
 OPTIONS:-l, -r, -n , -v , -i , -w , --color
 PATTERNS: *, ., ^root, root$, [abc], [a-c], [^a]

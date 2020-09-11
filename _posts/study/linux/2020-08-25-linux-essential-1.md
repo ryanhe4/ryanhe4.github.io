@@ -74,7 +74,7 @@ Linux 기본 명령어
 # 도움말과 암호 변경
 > man CMD
 
- ```bash
+ ```console
  # man ls
  # man -f passwd(# mandb, 검색이 안될 경우 사용)
  # man -k calendar

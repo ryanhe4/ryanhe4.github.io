@@ -24,13 +24,13 @@ HISTFILESIZE=512<br>
 HISTTIMEFORMAT="%F %T    "
 
 **엘리어스(alias)**<br>
-```bash
+```console
 # alias cp='cp -i'
 # alias 
 # unalias cp
 ```
 **환경 파일**
-```bash
+```console
 /etc/profile
 $HOME/.bash_profile
 $HOME/.bashrc
@@ -55,12 +55,12 @@ $HOME/.bashrc
     1. GUI 환경을 사용하는 프로그램
 
 * **프로세스 확인**
-    ```bash
+    ```console
     # pa aux | grep rsyslogd
     # ps -ef | grep rsyslogd
     ```
 * **프로세스 종료**
-    ```bash
+    ```console
     # kill -1 PID   (Daemon의 PID번호, 재기동)
         httpd
         httpd.conf(수정)
@@ -77,19 +77,19 @@ $HOME/.bashrc
 {:.lead}
 
 * **잡 실행**
-    ```bash
+    ```console
     fg) # ls
     bg) # ls &  
     ```
 * **잡 확인**
-    ```bash
+    ```console
     # jobs
     # fg %1
     # bg %1
     CTRL + Z
     ```
 * **잡 종료**
-    ```bash
+    ```console
     # kill %1
     ```
   
@@ -97,7 +97,7 @@ $HOME/.bashrc
 {:.lead}
 
 프로세스 모니터링에 `top명령어`를 사용하는데 해당 명령어의 해석이 중요하다.
-```bash
+```console
 # top   (# gnome-system-monitor)
 # top -u user01
 ```  
@@ -112,7 +112,7 @@ $HOME/.bashrc
     * stopped: 정지
     * zombie: 제대로 종료되지 않은 프로세스 
     * 좀비 프로세스 검색 방법
-        ```bash
+        ```console
         # ps -elf | awk '$2 == "Z" {print $0}'
         ```        
 1. **세번째 줄**<br>
@@ -133,7 +133,7 @@ $HOME/.bashrc
 {:.lead}
 
 프로세스에 의해 열려진 파일들에 대한 정보를 보는 명령어
-```bash
+```console
 # lsof
 # lsof /tmp    //파일이름 지정
 # lsof -c sshd //데몬 지정
@@ -148,7 +148,7 @@ $HOME/.bashrc
 {:.lead}
 
 프로세스가 사용하고 있는 메모리의 주소를 확인 하는 명령어
-```bash
+```console
 # pmap PID
 ```
 명령어 형식
@@ -158,7 +158,7 @@ $HOME/.bashrc
  {:.lead}
 
 실행중인 프로세스 상태를 트리 구조로 보여주는 명령어
-```bash
+```console
 # pstree PID
 # pstree -alup PID
 ```
@@ -175,7 +175,7 @@ $HOME/.bashrc
 * nice 명령어: 프로그램을 실행할 때 프로세스의 우선순위를 변경하는 명령어
 * renice 명령어: 실행중인 프로그램의 우선순위를 조정하는 명령어
 
-```bash
+```console
 # nice -(-20~19) CMD
 # renice (-20~20) PID
 ```
@@ -185,11 +185,11 @@ $HOME/.bashrc
 백업 스크립트/ 데이터 수집 스크립트 실행시<br>
 CPU 많이 점유하는 프로세스가 존재하는 경우
 {:.note}
-```bash
+```console
 # nice -10 /root/bin/backup.sh &
 ```
 
-```bash
+```console
 # renice 10 PID
 ```
 ## 원격접속 & 파일전송
@@ -198,20 +198,20 @@ CPU 많이 점유하는 프로세스가 존재하는 경우
 
 * **ssh 명령어**<br>
     원격 접속 명령어
-    ```bash
+    ```console
      # ssh IP
      # ssh IP CMD
      ```
 * **scp 명령어**<br>
     파일전송 명령어
-    ```bash
+    ```console
     # scp source destination
     # scp [-r] file1 172.16.6.249:/test
     # scp [-r] 172.16.6.249:/test/file1 /test
     ```
 * public key authentication
     * server A > server B 접속시 
-    ```bash
+    ```console
     # ssh-keygen  -t rsa
     # ssh-copy-id -i ~/.ssh/id_rsa.pub root@serverB(ip)
     ``` 
