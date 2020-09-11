@@ -2,7 +2,7 @@
 layout: tag-list
 title: linux
 slug: linux
-category: study
+category: dev
 menu: false
 submenu: true
 order: 1

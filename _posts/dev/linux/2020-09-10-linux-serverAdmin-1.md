@@ -103,8 +103,12 @@ NETWORK     : ifconfig -a(ip addr)
     * mount 관련 파일들
         /etc/mtab   :현재 마운트된 정보
         /etc/fstab  : 부팅시에 마운트 할 만한 정보
-    * mount 
-    * mount 
+    * mount 관련 명령어들
+        - mount CMD
+        - umount CMD
+        - mount -a
+        - umount -a
+    * 기타 마운트 관리
 1. **파일시스템 점검**
     ```console
     # fsck [-y] /dev/sdb1
