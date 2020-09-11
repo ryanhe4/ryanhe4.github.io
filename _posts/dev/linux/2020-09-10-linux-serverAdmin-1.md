@@ -120,8 +120,8 @@ tags: linux
 # lsblk
 ```  
 * mount 관련 파일들<br>
-    /etc/mtab   :현재 마운트된 정보<br>
-    /etc/fstab  : 부팅시에 마운트 할 만한 정보
+    `/etc/mtab`   :현재 마운트된 정보<br>
+    `/etc/fstab`  : 부팅시에 마운트 할 만한 정보
 * mount 관련 명령어들
     - mount CMD 
     ```console
