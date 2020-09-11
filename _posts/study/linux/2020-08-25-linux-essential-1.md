@@ -30,9 +30,9 @@ Linux 기본 명령어
 # who -r
 ```
 런레벨 조정
-```python
-(단일) # halt, # poweroff, #  reboot
-(다중) init 3, # shutdown -h
+```console
+# halt, # poweroff, #  reboot ,"(단일)"
+# init 3, # shutdown -h, "(다중)"
 ```
 # 02. 언어 확인(language confirm)
 ```
@@ -116,6 +116,6 @@ Section 9 : 리눅스 커널 API(내부 커널 호출)
 ```
 # SSH
 원격 접속을 위한 명령어
-```python
+```console
 # ssh fedora(:username)@localhost(:address)
 ```

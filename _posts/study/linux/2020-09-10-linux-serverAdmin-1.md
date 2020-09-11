@@ -59,10 +59,14 @@ NETWORK     : ifconfig -a(ip addr)
         # lsblk
         ```
 1. **파티션 작업**(fdisk, gdksik/parted)
+    * 파티션 작업 툴
+        + fdisk CMD : 2TB 미만
+        + gdisk CMD : 2TB 이상
+        + parted CMD : 2TB 이상
     * 파티션의 종류 & 이름체계
         - Primary Partition(1-4)
         - Extended Partition
-            + Logical Partition[5-15])
+            * Logical Partition[5-15])
                    
 1. **파일시스템 작업**       
 1. **마운트 작업**     

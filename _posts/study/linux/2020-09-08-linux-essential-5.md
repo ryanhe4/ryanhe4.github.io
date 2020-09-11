@@ -16,7 +16,7 @@ tags: linux
 ## find CMD
 검색을 위한 명령어
 
-~~~bash
+~~~console
 # find / -name core -type [f|d]    (# find / -name "*oracle*" -type f) 
 # find / -user user01 -group class1 
 # find / -mtime [-7|7|+7]   // 수정 시간으로 검색
@@ -54,20 +54,20 @@ tags: linux
 >-find + exec
 
 `find 명령어`를 실행 명령어와 같이 사용 가능 
-~~~bash
+~~~console
 # find /etc -type f -exec grep -l PASS_MIN_LEN {} \;
 # find /etc -type f | xargs grep -l PASS_MIN_LEN
 ~~~
-~~~bash
+~~~console
 # find /etc -type f -exec CMD {} \;
 # find /etc -type f | xargs CMD
 ~~~
 **오래된로그 삭제(find cmd + crontab)**
-~~~bash
+~~~console
 # find /Log_dir -name "*.log" -type f -mtime +30 -exec rm -f {} \;
 ~~~
 **파일시스템 풀(full)이 발생한 경우**
-~~~bash
+~~~console
 # df -h -T
 # du -sk /var
 # cd /var ; du -sk * | sort -nr | more
@@ -76,7 +76,7 @@ lsof CMD
 ~~~
 **에러 메세지 검색하기**
 * 소스 존재하는 경우<br>
-    ~~~bash
+    ~~~console
     # find /source -type f -exec grep -l "에러메세지" {} \; 
     ~~~
 * 소스 존재하지 않는 경우<br>
@@ -85,19 +85,19 @@ lsof CMD
 ## 압축 관련 명령어
 **gzip CMD**<br>
 파일을 압축할 때 사용하는 명령어
-~~~bash
+~~~console
 # gzip file1
 # gunzip -c file1.gz (gzip -d file1.gz)
 # gunzip file1.gz
 ~~~
 **bzip2 CMD**
-~~~bash
+~~~console
 # bzip2 file1
 # bunzip2 -c file1.bz2
 # bunzip2 file1.bz2
 ~~~
 **xz CMD**
-~~~bash
+~~~console
 # xz file1
 # unxz -c file1.bz2
 # unxz file1.bz2
@@ -109,7 +109,7 @@ verbose : 자세하게(detail) <br>
 **tar CMD**
 ## 압축 + 아카이빙 관련 명령어
 **tar CMD**
-~~~bash
+~~~console
 # tar cvf file.tar file1 file2
 # tar tvf file.tar
 # tar xvf file.tar
@@ -129,13 +129,13 @@ verbose : 자세하게(detail) <br>
 **zip CMD**
 * ZIP = 압축 + 아카이빙
 * windows zip 툴들과 호환 가능( winzip, 알집 ..)
-~~~bash
+~~~console
 # zip [-r] file.zip file1 file2
 # unzip -l file.zip
 # unzip file.zip
 ~~~
 **jar CMD(java archive)**
-~~~bash
+~~~console
 # jar cvf file.jar file1 file2
 # jar tvf file.jar
 # jar xvf file.jar
@@ -159,18 +159,18 @@ file.jar     : jar xvf
 
 >입력 리다이렉션(Redirection Stdin)
 
-~~~bash
+~~~console
 # mail -s "linux2XX: OK" admin@example.com < report.txt
 # wall < /etc/MESS/work.txt
 ~~~
 >출력 리다이렉션(Redirection Stdout)
 
-~~~bash
+~~~console
 # ps -ef | grep httpd | wc -l >> httpd.cnt
 ~~~
 >에러 리다이렉션(Redirection Stderr)
 
-~~~bash
+~~~console
 # ./script.sh > script.log 2>&1
 # ./configure --prefix=/usr/local/apache2 >apche.log 2>&1
 $ find / -name core -type f 2>/dev/null
@@ -183,7 +183,7 @@ $ find / -name core -type f 2>/dev/null
 **파이프(Pipe)**
 여러가지 커맨드를 연결하여 사용<br>
 앞의 출력을 뒤의 입력으로 넣음
-~~~bash
+~~~console
 # CMD | grep rsyslogd
 # CMD | CMD
 ~~~
@@ -191,7 +191,7 @@ $ find / -name core -type f 2>/dev/null
 
 >파이프 + tee CMD
 
-~~~bash
+~~~console
 # CMD | tee [-a] file.log  // 모니터링
 # While true
   do
@@ -201,7 +201,7 @@ $ find / -name core -type f 2>/dev/null
 ~~~
 >여러개의 터미널 화면 공유
 
-~~~bash
+~~~console
 # script -a /dev/null | tee /dev/pts/# | tee /dev/pts/# ..  //쉘 공유 설정
 ~~~
 **쉘 자체의 기능**
