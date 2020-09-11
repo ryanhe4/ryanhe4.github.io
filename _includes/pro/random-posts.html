@@ -1,10 +1,6 @@
 {% assign post = page %}
 
-{% assign random_posts = site.posts | where_exp:"post", "post.url != page.url"| where_exp: "post.categories.first == page.categories.first" | sample:3 %}
-
-{% if random_posts.size < 3 %}
-
-{% endif %}
+{% assign random_posts = site.posts | where_exp:"post", "post.url != page.url"| where_exp:"post", "post.categories.first == page.categories.first" | sample:3 %}
 
 {% if random_posts.size > 0 %}
 <aside class="related mb4" role="complementary">
