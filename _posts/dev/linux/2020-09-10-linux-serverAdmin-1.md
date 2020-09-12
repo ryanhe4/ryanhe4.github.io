@@ -51,7 +51,7 @@ tags: linux
 * 장치 인식 작업
      1. systemd-udevd.service 서비스 확인
      ```console
-     # systemclt list-unit-files | grep -i udev
+  # systemclt list-unit-files | grep -i udev
      ```
      1. Power OFF
      1. Disk 장착
@@ -61,6 +61,7 @@ tags: linux
      # fdisk -l
      # lsblk
      ```
+  
 ### 2. 파티션 작업 (fdisk, gdksik/parted)
 * 파티션 작업 툴
    + fdisk CMD : 2TB 미만

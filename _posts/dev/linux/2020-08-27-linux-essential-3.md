@@ -25,7 +25,7 @@ Linux 기본 명령어
 # su [user]   : 환경변수가 바뀌지않음 ($PATH 등)
 # su - [user] : 환경변수까지 바뀜
 ```
- **스위칭 후 id,pwd 명령어로 스위칭 확인 필요**
+**스위칭 후 id,pwd 명령어로 스위칭 확인 필요**
  
 **[참고]** sudo CMD (superuser do,/etc/sudoers, /etc/shdoers.d/\*)  
  : 관리자 권한으로 실행
