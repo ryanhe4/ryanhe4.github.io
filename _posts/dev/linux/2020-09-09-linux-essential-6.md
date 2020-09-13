@@ -68,7 +68,7 @@ $HOME/.bashrc
     # kill -9 PID   (# kill -KILL PID, 강제종료)
     # kill PID (# kill -15 PID(정상종료)
     ```
-    {:.note}
+    {:.note title="프로세스 종료"}
     
     killall CMD, pkill CMD
     
