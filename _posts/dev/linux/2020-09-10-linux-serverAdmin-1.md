@@ -5,7 +5,7 @@ date: 2020-09-10 09:16:00 +0900
 categories: dev
 tags: linux 
 ---
-리눅스 필수 명령어
+리눅스 서버 관리 명령어
 <!--more-->
 
 * toc part
