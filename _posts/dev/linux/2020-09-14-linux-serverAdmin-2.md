@@ -186,16 +186,19 @@ Parity를 이중화, 두장의 디스크가 나갔을 때 복구 가능하다.
 # fdisk /dev/sdd
 ```
 >RAID 구성
+
 ```console
 # mdadm --create /dev/md0 --level=0 --raid-device=2 /dev/sdc1 /dev/sdd1
 # mdadm --detail --scan > /etc/mdadm.conf
 # watch cat/proc/mdstat
 ```
 >FS 생성
+
 ```console
 # mkfs.ext4 /dev/md0
 ```
 >마운트
+
 ```console
 # vi /etc/fstab
 # mount -a
@@ -204,11 +207,13 @@ Parity를 이중화, 두장의 디스크가 나갔을 때 복구 가능하다.
 
 ### RAID 삭제
 >언마운트
+
 ```console
 # vi /etc/fstab
 # unmount /raid0
 ```
 >RAID 구성 삭제
+
 ```console
 # mdadm --stop /dev/md0
 # mdadm --remove /dev/md0
