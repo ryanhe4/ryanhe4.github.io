@@ -115,3 +115,48 @@ input[type="checkbox"]:checked ~ ul{
       visibility: hidden;
    }
 }
+
+/* 각 포스트의 시작 Introduction을 위한 fontAwesome */
+strong.post_introduction:before {
+  content: '\f086';
+  display: inline-block;
+  margin: 0 2px 0 4px;
+  line-height: 1;
+  font-family: "FontAwesome";
+  font-size: 3rem;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: middle;
+  padding: 0px 5px 6px 0px;
+  color: teal;
+}
+
+/* 포스트의  subtitle을 위한 fontAwesome */
+strong.subtitle_fontAwesome:before {
+  content: '\f0a4';
+  display: inline-block;
+  margin: 0 2px 0 4px;
+  line-height: 1;
+  font-family: "FontAwesome";
+  font-size: 5rem;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: middle;
+  padding: 0px 5px 6px 0px;
+  color: teal;
+}
+
+/* 포스트의  subtitle안에 단락제목을 위한 fontAwesome */
+strong.subtitle2_fontAwesome:before {
+  content: '\f13a';
+  display: inline-block;
+  margin: 0 2px 0 4px;
+  line-height: 1;
+  font-family: "FontAwesome";
+  font-size: 3rem;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: middle;
+  padding: 0px 5px 6px 0px;
+  color: #f92672;
+}
