@@ -2,7 +2,9 @@
 layout: post 
 title: "Linux 기본 명령어 3"
 categories: dev
-tags: linux
+tags: linux 
+image: >-
+    https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg
 date: 2020-08-27 09:33:00 +0900
 image: assets/img/blog/steve-harvey.jpg
 ---

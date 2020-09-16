@@ -3,9 +3,9 @@ layout: post
 title: "리눅스 서버 관리3 - 소프트웨어"
 date: 2020-09-15 17:30:00 +0900
 categories: dev
-tags: linux 
+tags: linux  
 image: >-
-    https://t1.daumcdn.net/cfile/tistory/9923B0495D66434618
+    https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg
 ---
 RPM, YUM, Source 등을 통한 Software 관리
 <!--more-->
@@ -45,6 +45,7 @@ rpm -e [--nodeps] PKG
 ```
 
 >rpm 파일 구하는 곳
+
 * Linux CD
 * 인터넷(fedoraproject)
 ```console
@@ -101,10 +102,10 @@ rpm -e [--nodeps] PKG
 
 >CDROM-CD를 가지고 YUM Repository 구성
 
-CD-ROM CD 장착(Automount) -> /mnt/cdrom
+CD-ROM CD 장착(Automount) -> `/mnt/cdrom`
 
 ```
-[CD}
+[CD]
 name=MYCD Test
 baseurl=file://mnt/cdrom
 enabled=1
@@ -120,7 +121,7 @@ gpgcheck=0
 ```
 
 ```
-[MYISO}
+[MYISO]
 name=MYISO Test
 baseurl=file://mnt/iso
 enabled=1
@@ -151,6 +152,7 @@ gpgcheck=0
 ```
 
 > 자동으로  yum 업데이트/ 끄기
+
 ```console
 # yum -y install yum-cron
 # systemctl start yum-cron

@@ -4,6 +4,8 @@ title: "Linux 기본 명령어 1"
 date: 2020-08-25 15:52:00 +0900
 categories: dev
 tags: linux 
+image: >-
+    https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg 
 image: assets/img/blog/steve-harvey.jpg
 ---
 

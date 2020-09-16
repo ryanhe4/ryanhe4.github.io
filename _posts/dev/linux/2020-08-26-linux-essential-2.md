@@ -3,7 +3,9 @@ layout: post
 title: "Linux 기본 명령어 2"
 date: 2020-08-26 09:31:00 +0900
 categories: dev
-tags: linux
+tags: linux 
+image: >-
+    https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg
 image: assets/img/blog/steve-harvey.jpg
 ---
 Linux 기본 명령어

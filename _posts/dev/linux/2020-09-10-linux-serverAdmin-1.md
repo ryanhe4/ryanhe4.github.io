@@ -4,6 +4,8 @@ title: "리눅스 서버 관리1"
 date: 2020-09-10 09:16:00 +0900
 categories: dev
 tags: linux 
+image: >-
+    https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg 
 ---
 리눅스 서버 관리 명령어
 <!--more-->

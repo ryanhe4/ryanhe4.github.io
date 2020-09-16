@@ -4,6 +4,8 @@ title: "Linux 기본 명령어 5"
 date: 2020-09-08 09:32:00 +0900
 categories: dev
 tags: linux 
+image: >-
+    https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg 
 ---
 리눅스 명령어 정리 입니다.
 `find 명령어`, `압축 명령어`, `아카이빙명령어`, `쉘의 특성`
