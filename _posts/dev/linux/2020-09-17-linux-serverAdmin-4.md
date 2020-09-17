@@ -171,6 +171,7 @@ CD 부팅
 * oracle 관리자/was 관리자
     -> 운영체제가 부팅이 될 때 was/oracle 소프트웨어를 같이 기동
 * 소스 컴파일 (/usr/local/apache2)
+
 ```console
 # /usr/lcoal/apache2/bin/apachectl restart
 # systemctl enable apache2
