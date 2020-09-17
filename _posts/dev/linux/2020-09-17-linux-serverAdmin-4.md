@@ -185,7 +185,7 @@ CD 부팅
 # rm -f /usr/lib/systemd/system/new.service
 ```
 
-/root/bin/new
+**/root/bin/new**
 ```bash
 #!/bin/bash
 echo -e "Test New Service is start." | logger -t TestNewService
@@ -195,6 +195,7 @@ do
     sleep 30
 done
 ```
+
 ```console
 # chmod 755 /root/bin/new
 # /root/bin/new
@@ -202,6 +203,7 @@ done
 # cat /var/log/messages | grep TestNewService
 # vi /usr/lib/systemd/system/new.service
 ```
+
 ```config
 [Unit]
 Description=Test New Service
@@ -214,6 +216,7 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 ```
+
 ```console
 # systemctl enable new.service
 # systemctl start new.service
