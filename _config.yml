@@ -106,18 +106,18 @@ theme_color:           rgb(8,46,57)
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
 
-google_fonts:          Nanum+Gothic:wght@700|Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+google_fonts:          Lato:ital,wght@0,400;0,700;1,400;1,700|Noto+Sans:400,400i,700,700i
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font:                  Nanum Gothic, Noto Sans, Helvetica, Arial, sans-serif
+font:                  Lato, sans-serif, Noto Sans, Helvetica, Arial,
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Nanum Gothic, Roboto Slab, Helvetica, Arial, sans-serif
+font_heading:          Lato, sans-serif, Roboto Slab, Helvetica, Arial,
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
-font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
+font_code:             Monaco, Consolas, Fira Code, Menlo, monospace;
 
 defaults:
   # You can use this to provide a default accent color and background for

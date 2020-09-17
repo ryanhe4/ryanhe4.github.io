@@ -30,6 +30,10 @@ image: >-
 # grub2-install /dev/sda
 ```
 * grub2-setpassword CMD 
+```console
+# grub2-setpassword          //설정
+# rm -f /boot/grub2/user.cfg //삭제
+```
 
 ## 커널(Kernel) 단계
 * /etc/sysctl.conf
@@ -109,13 +113,6 @@ net.ipv4.ip_forward = 1
 ```console
 # chmod +x /etc/rc.d/rc.local
 # vi /etc/rc.d/rc.local
-```
-
->GRUB 암호 설정
-
-```console
-# grub2-setpassword          //설정
-# rm -f /boot/grub2/user.cfg //삭제
 ```
 
 >부팅 장애처리 시 참고사항
