@@ -52,7 +52,8 @@ net.ipv4.ip_forward = 1
 * systemd 특성 
     - 단일 체계 관리
 * systemctl CMD
->서비스 확인
+
+### 서비스 확인
 
 ```console
 # systemctl list-unit-files | grep sshd
@@ -60,7 +61,7 @@ net.ipv4.ip_forward = 1
 # systemctl list-units -t service|socket|target
 ```
 
->서비스 제어
+### 서비스 제어
 
 ```console
 # systemctl start|stop|restart|reload sshd
@@ -69,14 +70,14 @@ net.ipv4.ip_forward = 1
 # systemctl --failed [--type=service]
 ```
 
->서비스 의존성 관계
+### 서비스 의존성 관계
 
 ```console
 # systemctl list-dependencies sshd
 # systemctl list-dependencies sshd --reverse
 ```
 
->mast/unmask
+### mast/unmask
 
 ```console
 # systemctl mask network
@@ -84,7 +85,7 @@ net.ipv4.ip_forward = 1
 # systemctl mask sendmail
 ```
 
->target
+### target
 
 ```console
 # systemctl get-default
@@ -108,14 +109,14 @@ net.ipv4.ip_forward = 1
 ```
 4. systemd.unit=rescue.target => /etc/fstab
 
->/etc/rc.d/rc.local (etc/rc.local)
+### /etc/rc.d/rc.local (etc/rc.local)
 
 ```console
 # chmod +x /etc/rc.d/rc.local
 # vi /etc/rc.d/rc.local
 ```
 
->부팅 장애처리 시 참고사항
+### 부팅 장애처리 시 참고사항
 
 ```console
 # dmesg | more
@@ -124,7 +125,7 @@ net.ipv4.ip_forward = 1
 # systemctl disable debug-shell.service
 ```
 
->중단된 작업 확인
+### 중단된 작업 확인
 
 실행 도중 완료가 되지 못하고 일부만 실행되어 전체 작업이 실행되지 못한 경우 -> `waiting` 상태 확인
 ```console
@@ -133,7 +134,7 @@ net.ipv4.ip_forward = 1
 * failed: systemctl --failed 
 * waiting: systemctl list-jobs
 
->GRUB 영역 깨진경우 복구
+### GRUB 영역 깨진경우 복구
 
 * /boot/grub2/grub.cfg 이상 
 ```console
@@ -151,7 +152,7 @@ CD 부팅
 # exit ; exit
 ```
 
->/etc/fstab 파일 이상
+### /etc/fstab 파일 이상
 
 ```console
 ! ls -l /dev/vg1/lv1
@@ -165,7 +166,7 @@ CD 부팅
 ```
 
 ## 새로운 서비스 등록 방법
-* oracle 관리자/was 관리자
+* [예] oracle 관리자/was 관리자
     -> 운영체제가 부팅이 될 때 was/oracle 소프트웨어를 같이 기동
 * 소스 컴파일 (/usr/local/apache2)
 
@@ -183,7 +184,8 @@ CD 부팅
 # rm -f /usr/lib/systemd/system/new.service
 ```
 
-**/root/bin/new**
+> /root/bin/new
+
 ```bash
 #!/bin/bash
 echo -e "Test New Service is start." | logger -t TestNewService
@@ -201,6 +203,8 @@ done
 # cat /var/log/messages | grep TestNewService
 # vi /usr/lib/systemd/system/new.service
 ```
+
+> /usr/lib/systemd/system/new.service
 
 ```config
 [Unit]
