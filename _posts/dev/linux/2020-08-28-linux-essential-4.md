@@ -16,23 +16,20 @@ Linux 기본 명령어
 {:toc}
 
 # 파일 속성 정보 관리
-
->chown CMD
-
+## chown CMD
 파일의 사용자 변경    
-```
+```console
 # chown [user] filename
 OPTIONS : -R
 ```
->chgrp CMD
-
+## chgrp CMD
 파일의 그룹 변경(위의 chown 명령어로 가능하여 많이 사용되지 않음)
-```
+```console
 # chgrp [user] filename
 ```
->chmod CMD
-    
-**파일 퍼미션 변경**
+
+## chmod CMD    
+파일의 퍼미션 변경
 * **퍼미션의 의미**     
    파일       : r,w,x <br/>
    디렉토리    : r(ls CMD), w(생성/삭제), x(cd CMD)
@@ -49,17 +46,17 @@ OPTIONS : -R
   - 관리자: /etc/bashrc
   - 사용자: $HOME/.bashrc
 * **특수퍼미션**    
-    - SetUID/SetGID/Sticky Bit 의미
-    - SetUID/SetGID/Sticky Bit 설정    
-     ```console
-     # chmod 4755 file1
-     # chmod 2755 file1
-     # chmod 1777 dir1
-     ```
-    - SetUID/SetGID/Sticky Bit 관리
+   - SetUID/SetGID/Sticky Bit 의미
+   - SetUID/SetGID/Sticky Bit 설정    
+   ```console
+   # chmod 4755 file1
+   # chmod 2755 file1
+   # chmod 1777 dir1
+   ```
+   - SetUID/SetGID/Sticky Bit 관리
             
 * **검색 방법** 
-```
+```console
 # find / \( -perm -4000 -o -perm -2000\) -type f
 ```
 * **목록화 방법/카운터**
@@ -74,10 +71,11 @@ OPTIONS : -R
 # find /home -type f -perm -4000 -exec rm -f {} \;
 ```
       
-**[참고] 0 day attack, 1 day attack**<br>
+>**[참고] 0 day attack, 1 day attack**<br>
 버그가 생성된 시점부터 패치가 나오는 시점 사이의 공격
    
-**[참고] 공격 구문**
+>**[참고] 공격 구문**
+
 ```c++
 main() {
     setuid(0);  setreuid(0,0);
@@ -90,7 +88,7 @@ main() {
 
 # vi(Visual Editor) 편집기
 리눅스 환경에서 사용하는 텍스트, 문서 편집기 
->vi 편집기 환경설정 ($HOME/.vimrc, $HOME/.exrc)
+## vi 편집기 환경설정 ($HOME/.vimrc, $HOME/.exrc)
 
 ```
 # vi ~/.vimrc
@@ -102,21 +100,19 @@ set tapstop=4 (set ts=4)
 ``` 
 
 # 사용자 통신 명령어    
->mail/mailX CMD
-
+## mail/mailX CMD
 ```
 # mail -s "[ OK ] linux222" admin@example.com < report.txt
 ```
->talk CMD
 
->wall CMD
-
+## talk CMD
+## wall CMD
 메세지를 전체 서버에 broadcast, crontab 활용 ```# crontab -e```
     
 # 유용한 명령어
->cmp/diff CMD
+## cmp/diff CMD
  
-* 파일 비교할때 사용하는 명령어
+* 파일 비교할때 사용하는 명령어<br>
  백업 설정 파일, 현재 설정 파일 비교 
 ```console
 # diff httpd.conf httpd.conf.old
@@ -129,8 +125,7 @@ set tapstop=4 (set ts=4)
 # diff --recursive /was1 /was2
 ```
 
->sort CMD
-
+## sort CMD
 CMD의 내용에 대한 정렬 명령어
 ```console
 # CMD | sort -k 3
@@ -140,16 +135,15 @@ CMD의 내용에 대한 정렬 명령어
 # du -sk /var
 # cd /var ; du -sk * | sort -nr | more
 ```
->file CMD
 
+##file CMD
 **파일의 타입 결정(확인)에 사용**
-    
 ```console
 # file *
 ```
-# 검색관련 명령어 
- 
->grep cmd
+
+# 검색관련 명령어  
+## grep cmd
      
 ```console
 # grep OPTIONS PATTERN file1
@@ -161,6 +155,8 @@ PATTERNS: *, ., ^root, root$, [abc], [a-c], [^a]
 # rpm -qa |grep httpd
 # systemctl list-unit-files | grep ssh
 ```
-**[참고] pcre(perl compatable regular expression) 변형 => grep RE**<br> 
-    * **egrep(Extended grep) CMD** : 패턴 여러개 검색  
-    * **fgrep(fixed grep) CMD** : 특수기호 검색 가능
+
+>**[참고] pcre(perl compatable regular expression) 변형 => grep RE**<br>
+
+* **egrep(Extended grep) CMD** : 패턴 여러개 검색  
+* **fgrep(fixed grep) CMD** : 특수기호 검색 가능

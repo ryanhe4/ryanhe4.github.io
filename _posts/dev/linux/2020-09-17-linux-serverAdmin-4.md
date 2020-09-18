@@ -36,6 +36,7 @@ image: >-
 ```
 
 ## 커널(Kernel) 단계
+* /boot/vmlinuz*
 * /etc/sysctl.conf
 * sysctl CMD
 ```console
@@ -65,20 +66,18 @@ net.ipv4.ip_forward = 1
 
 ```console
 # systemctl start|stop|restart|reload sshd
-# systemctl status sshd
-# systemctl is-enabled-active sshd
+# systemctl status sshd [-l, 상세정보]
+# systemctl is-enabled-active|is-failed sshd
 # systemctl --failed [--type=service]
 ```
 
 ### 서비스 의존성 관계
-
 ```console
 # systemctl list-dependencies sshd
 # systemctl list-dependencies sshd --reverse
 ```
 
 ### mast/unmask
-
 ```console
 # systemctl mask network
 # systemctl mask iptables
@@ -86,7 +85,6 @@ net.ipv4.ip_forward = 1
 ```
 
 ### target
-
 ```console
 # systemctl get-default
 # systemctl set-default multi-user.target|graphical.target
@@ -110,14 +108,12 @@ net.ipv4.ip_forward = 1
 4. systemd.unit=rescue.target => /etc/fstab
 
 ### /etc/rc.d/rc.local (etc/rc.local)
-
 ```console
 # chmod +x /etc/rc.d/rc.local
 # vi /etc/rc.d/rc.local
 ```
 
 ### 부팅 장애처리 시 참고사항
-
 ```console
 # dmesg | more
 # journalctl -xn

@@ -235,8 +235,8 @@ head 명령어의 반대 형태 아래부터 출력
 # df -hT -t ext4 / | tail -1 | awk '{print $6}'
 ```
 ```console
-# cat /var/log/mesages | \\ 
-grep 'Aug 30' | \
-grep 'systemd-logind'| \\   
-grep 'New sessions'| wc -1
+# cat /var/log/mesages | \
+> grep 'Aug 30' | \
+> grep 'systemd-logind'| \
+> grep 'New sessions'| wc -1
 ```
