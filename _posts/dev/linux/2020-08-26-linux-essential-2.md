@@ -6,7 +6,6 @@ categories: dev
 tags: linux 
 image: >-
     https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg
-image: assets/img/blog/steve-harvey.jpg
 ---
 Linux 기본 명령어
 

@@ -6,7 +6,6 @@ tags: linux
 image: >-
     https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg
 date: '2020-08-28 09:30:00 +0900'
-image: assets/img/blog/steve-harvey.jpg
 ---
 Linux 기본 명령어
 
@@ -105,7 +104,6 @@ set tapstop=4 (set ts=4)
 # mail -s "[ OK ] linux222" admin@example.com < report.txt
 ```
 
-## talk CMD
 ## wall CMD
 메세지를 전체 서버에 broadcast, crontab 활용 ```# crontab -e```
     
@@ -136,8 +134,8 @@ CMD의 내용에 대한 정렬 명령어
 # cd /var ; du -sk * | sort -nr | more
 ```
 
-##file CMD
-**파일의 타입 결정(확인)에 사용**
+## file CMD
+파일의 타입 결정(확인)에 사용
 ```console
 # file *
 ```
