@@ -33,14 +33,16 @@ image: >-
 * /etc/login.defs
 
 ### 사용자 관리 명령어
-* **useradd** CMD: 사용자 정보 추가 명령어
+#### **useradd** CMD
+사용자 정보 추가 명령어
 ```console
 # useradd user01
 # passwd user01
 # useradd -u 1000 -g -c "" -d /home/user01 -s /bin/bash user01
 # useradd -M -d /oracle oracle
 ``` 
-* **usermod** CMD: 사용자 정보 변경 명령어
+#### usermod CMD
+사용자 정보 변경 명령어
 ```console
 # usermod -s /bin/csh usr01
 # usermod -u 1001 user01
@@ -49,18 +51,24 @@ image: >-
 ```
 > `# cat /etc/shlls` 쉘 확인
 
-* **userdel** CMD: 사용자 삭제 명령어
+#### userdel CMD
+사용자 삭제 명령어
 ```console
 # userdel user01
 # userdel -r user01
 ```
-> **[참고]** /etc/skel/*
+
+> `참고` /etc/skel/*
   
 1. /etc/skek/* 의 내용 
-1. useradd 명령어 수행 
+1. `useradd` 명령어 수행 
 1. /home/사용자/* 내용 복사
 
-> **[참고]** 
+> `참고` 사용자 추가 스크립트
+```
+# useradd user01
+# echo 암호 | passwd --stdin user01
+```
 
 ## 그룹 관리
 ### 그룹(group)
@@ -68,6 +76,7 @@ image: >-
 * 한명의 사용자는 하나 이상의 그룹에 속해야 한다.
 * 사용자가 속한 그룹의 종류는 주 그룹(Primary Group), 부 그룹(Secondary Group)이 있다.
 * 한명의 사용자는 한개의 주 그룹과 31개의 부 그룹에 최대로 속할 수 있다. 
+
 ### 그룹 정보 파일
 * /etc/group 파일
 * /etc/login.defs
@@ -114,9 +123,7 @@ image: >-
 
 ### crontab CMD(crond)
 같은 작업을 주기적으로 반복 실행되도록 하는 작업 스케줄용 데몬 <br>
-
 ![cron 형식](https://miro.medium.com/max/670/1*ukNvgqV-HTHTebPHZMFNgg.png)
-
 ```console
 # systemctl restart crond
 
