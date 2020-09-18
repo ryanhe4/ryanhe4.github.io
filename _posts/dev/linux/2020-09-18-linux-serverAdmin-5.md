@@ -58,13 +58,14 @@ image: >-
 # userdel -r user01
 ```
 
-> `참고` /etc/skel/*
+> `[참고]` /etc/skel/*
   
 1. /etc/skek/* 의 내용 
 1. `useradd` 명령어 수행 
 1. /home/사용자/* 내용 복사
 
-> `참고` 사용자 추가 스크립트
+> `참고]` 사용자 추가 스크립트
+
 ```
 # useradd user01
 # echo 암호 | passwd --stdin user01
