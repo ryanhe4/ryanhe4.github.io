@@ -105,6 +105,7 @@ image: >-
 ActiveSync : WIN <-> WIN
 cwRsync    : WIN <-> Linux/Unix
 ```
+
 > 주의 /backup1 과 /backup1/의 차이점
 
 [/]를 붙이지 않으면 해당 폴더를 하위폴더로 생성한다.
