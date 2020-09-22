@@ -14,6 +14,7 @@ nmcli를 통한 네트워크 제어
 {:toc}
 
 # 서비스제어
+
 |        legecy       |       | current |
 | :---------------   | :---- | :------------- |
 | xinetd service     | -->  | telnet.socket |
