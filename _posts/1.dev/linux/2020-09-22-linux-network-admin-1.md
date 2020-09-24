@@ -36,6 +36,34 @@ nmcli를 통한 네트워크 제어
 * /etc/sysconfig/network-scripts/ifcfg-* : 네트워크 카드의 설정 정보
 * /etc/hostname: 자신의 서버이름 `# hostnamectl`
 
+```Config File
+--------------- basic --------------
+DEVICE="ens33"
+NAME="ens33"
+ONBOOT="yes"
+UUID="73dc092f-4fb7-436b-82a2-e35ca9babb89"
+USERCTL=yes
+HWADDR="00:0C:29:3C:C4:E0"
+--------------- static -------------
+TYPE="Ethernet"
+BOOTPROTO="none"
+IPADDR="172.16.6.249"
+PREFIX="24"
+GATEWAY="172.16.6.254"
+DNS1="168.126.63.1"
+DOMAIN="example.com"
+--------------- dhcp ---------------
+BOOTPROTO="dhcp"
+-------------------------------------	
+```
+{:.note title="/etc/sysconfig/network-scripts/ifcfg-*"}
+
+```console
+# vi /etc/sysconfig/network-scripts/ifcfg-ens33
+# nmcli connection reload
+# nmcli connection up ens33
+```
+
 ## 네트워크 설정 명령어
 * (CLI) nmcli CMD
 * (TUI) nmtui
@@ -89,6 +117,8 @@ ens33(team0-port1, ens33)  --+-- team0(192.168.10.100)
                              |
 ens36(team0-port2, ens36)  --+
 ```
+
+**전제 설정** ens33, ens36 disconnect
 
 **Master 생성**
 ```console
