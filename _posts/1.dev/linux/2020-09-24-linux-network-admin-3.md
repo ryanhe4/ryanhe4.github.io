@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "리눅스 네트워크 관리 - WEB Server"
+title: "리눅스 네트워크 관리 - WEB 서버"
 date: 2020-09-24 09:30:00 +0900
 categories: dev
 tags: linux  
@@ -22,10 +22,6 @@ WEB Server - httpd
     - /etc/httpd/conf.d/*.conf
     - /etc/httpd/conf.modules.d/*.conf
 * Service: httpd.service
-----------------------------------------------
-**추가 정리 부분: 기능**
-
-----------------------------------------------
 
 ### 간단한 웹서버 구축
 ```console
@@ -203,23 +199,24 @@ www3 IN A 172.16.6.1XX
     </Directory>
 </VirtualHost>
 ```
+
 **웹 데몬 재기동**
 ```console
-systemctl restart httpd
+# systemctl restart httpd
 ```
 
 > IP BASE Virtual Hosting
 
 1. 아이피 추가 등록 NTC => 172.16.6.[122,172,72] ..
 1. vi /etc/httpd/conf.d/vhost.conf
-```
-<VirtualHost 172.16.6.122:80>
-<VirtualHost 172.16.6.172:80>
-<VirtualHost 172.16.6.72:80>
-```
+    ```
+    <VirtualHost 172.16.6.122:80>
+    <VirtualHost 172.16.6.172:80>
+    <VirtualHost 172.16.6.72:80>
+    ```
 1. 서비스 재기동
 ```cosnole
-#systemctl restart httpd
+# systemctl restart httpd
 ```
 
 > 복원
@@ -261,9 +258,9 @@ systemctl restart httpd
 
 ## 보안
 WAF(Web Application Firewall): 웹 방화벽
-* WEbKnight
+* WebKnight
 * ModSecurity for Apache
 
-KR-CERT 서비스([www.krcert.or.kr/webprotect/samCompany.do](www.krcert.or.kr/webprotect/samCompany.do))
+KR-CERT 서비스([www.krcert.or.kr/webprotect/samCompany.do](http://www.krcert.or.kr/webprotect/samCompany.do))
 * 휘슬: 웹 서버에 설치하는 
 * 캐슬: 웹 방화벽 S/W
