@@ -149,4 +149,4 @@ Zone Data Transfer를 할 수 있는 Slave IP 지정
 
 ## 관리
 * DNS 통계 모니터링
-    http://sourceforge.net/projects/dns
+    [http://sourceforge.net/projects/dns](http://sourceforge.net/projects/dns)
