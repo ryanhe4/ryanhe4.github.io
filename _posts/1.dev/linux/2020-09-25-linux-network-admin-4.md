@@ -24,12 +24,14 @@ FTP(File Transfer Protocol)
 ```
 # yum install ftp vsftpd
 # cd /etc/vsftpd ; vi ftpusers ; vi user_list
+# sed -i 's/^root/#root/' /etc/vsftpd/ftpusers
+# sed -i 's/^root/#root/' /etc/vsftpd/user_list
 ```
 
 ### ftp 클라이언트 툴 사용법
 **gftp**
 ```console
-# yum install epel-release
+# yum install epel-release (/etc/yum.repos.d/epel.repo(enabled=0))
 # yum --enablerepo=epel install gftp
 # gftp &
 ```
