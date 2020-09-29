@@ -150,7 +150,7 @@ yum -y install sendmail
 * 받는 메일 서버: mail.linux2XX.example.com 110
 
 ### 웹 메일 서버
-* squirrelmail
+**squirrelmail**
 ```console
 # yum --enablerepo=epel install -y squirrelmail
 # rpm -ql
@@ -162,5 +162,4 @@ yum -y install sendmail
 
 # /usr/share/squirrelmail/config/config.pl
 # systemctl restart httpd
-
 ```
