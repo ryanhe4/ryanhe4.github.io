@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://ryanhe4.github.io/sitemap.xml
+Sitemap: https://xploitdev.com/sitemap.xml
