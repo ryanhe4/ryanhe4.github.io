@@ -1,6 +1,6 @@
-# Study Blog
+# Xploit Dev
 
-## [About Me](https://ryanhe4.github.io/about/)
+## [About Me](https://xploitdev.com/about/)
 
 Hello, there!<br>
 This blog is to post whatever I feel like to.<br>
