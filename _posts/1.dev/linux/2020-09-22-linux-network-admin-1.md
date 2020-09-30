@@ -36,7 +36,7 @@ nmcli를 통한 네트워크 제어
 * /etc/sysconfig/network-scripts/ifcfg-* : 네트워크 카드의 설정 정보
 * /etc/hostname: 자신의 서버이름 `# hostnamectl`
 
-```Config File
+```
 --------------- basic --------------
 DEVICE="ens33"
 NAME="ens33"
@@ -56,6 +56,7 @@ DOMAIN="example.com"
 BOOTPROTO="dhcp"
 -------------------------------------	
 ```
+
 {:.note title="/etc/sysconfig/network-scripts/ifcfg-*"}
 
 ```console
