@@ -151,7 +151,7 @@ pre.highlight {
 }
 .warning-text {
   font-size: 1em !important;
-  &p {
+  p & {
     text-decoration: none;
     padding-right: 5px;
     padding-left: 5px;
