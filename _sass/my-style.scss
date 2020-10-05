@@ -149,13 +149,15 @@ pre.highlight {
   font-size: 0.75em;
   margin-bottom: 15px;
 }
+
 .warning-text {
   font-size: 1em !important;
-  p & {
+}
+
+p.warning-text {
     text-decoration: none;
     padding-right: 5px;
     padding-left: 5px;
     color: rgb(247, 22, 22);
     font-weight: bold;
-  }
 }
