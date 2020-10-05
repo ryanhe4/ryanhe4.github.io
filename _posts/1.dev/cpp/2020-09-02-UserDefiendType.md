@@ -14,7 +14,7 @@ high-level의 편리한 기능들을 제공하지 않는다. <br>
 <!--more-->
 
 * toc line
-{:toc}
+{:toc .large-only}
 
 C++의 추상 메커니즘은 주로 프로그래머가 자신의 타입을 구현하는데 고안되엇다.
 이러한 추상 메커니즘을 `사용자 정의타입(User-Defined Type)`이라 한다.

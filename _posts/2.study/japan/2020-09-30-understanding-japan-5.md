@@ -11,7 +11,7 @@ image: assets/img/blog/steve-harvey.jpg
 <!--more-->
 
 * toc 
-{:toc}
+{:toc .large-only}
 
 # 메이지 시대 :1868-1912
 메이지 유신에의해 막부 정권이 1868년 바뀜 -> 천왕 중심의 중앙집권국가, 에도를 도쿄, 연호는 메이지

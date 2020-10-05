@@ -11,7 +11,7 @@ WEB Server - httpd
 <!--more-->
 
 * toc
-{:toc}
+{:toc .large-only}
 
 ## 웹
 ## Apache Web Server on Cent OS 7.X 

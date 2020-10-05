@@ -13,7 +13,7 @@ image: >-
 <!--more-->
 
 * toc label
-{:toc}
+{:toc .large-only}
 
 ## find CMD
 검색을 위한 명령어

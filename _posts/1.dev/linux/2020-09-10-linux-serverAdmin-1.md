@@ -11,7 +11,7 @@ image: >-
 <!--more-->
 
 * toc part
-{:toc}
+{:toc .large-only}
 
 ## 디렉토리 구조
 >디렉토리 구조와 용도

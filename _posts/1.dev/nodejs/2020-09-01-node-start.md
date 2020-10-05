@@ -12,7 +12,7 @@ Node.js에대해 알아보겠습니다.
 <!--more-->
 
 * toc table
-{:toc}
+{:toc .large-only}
 
 # 노드의 정의
 >노드란?

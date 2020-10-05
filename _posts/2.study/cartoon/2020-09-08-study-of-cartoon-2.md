@@ -11,7 +11,7 @@ image: assets/img/blog/steve-harvey.jpg
 <!--more-->
 
 * toc table
-{:toc}
+{:toc .large-only}
 
 ## 기호학이란?
 기호를 의미하는 그리스어  `semion`에서 유래한 것으로 20세기에 이르러서야 학문의 한분야로 발달하기 시작

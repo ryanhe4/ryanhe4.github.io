@@ -13,7 +13,7 @@ Linux 기본 명령어
 <!--more-->
 
 * toc table
-{:toc}
+{:toc .large-only}
 
 # 01. 런레벨(run level)
 

@@ -12,7 +12,7 @@ image: assets/img/blog/steve-harvey.jpg
 <!--more-->
 
 * toc table
-{:toc}
+{:toc .large-only}
 
 # 1. 지리와 자연
 

@@ -10,7 +10,7 @@ image: assets/img/blog/steve-harvey.jpg
 <!--more-->
 
 * toc 
-{:toc}
+{:toc .large-only}
 
 # 일본의 역사 (중세)
 겐페이: 겐지와 헤이시, 홍백전

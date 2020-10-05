@@ -11,7 +11,7 @@ Node.js 실행, 모듈, 내장 객체 등 노드의 다양한 기능
 <!--more-->
 
 * toc
-{:toc}
+{:toc .large-only}
 
 # 모듈 만들기
 ## 모듈

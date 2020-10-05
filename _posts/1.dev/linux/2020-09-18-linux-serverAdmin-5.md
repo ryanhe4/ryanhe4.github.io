@@ -11,7 +11,7 @@ image: >-
 <!--more-->
 
 * toc part
-{:toc}
+{:toc .large-only}
 
 ## 사용자 관리
 ### 사용자  정보 파일

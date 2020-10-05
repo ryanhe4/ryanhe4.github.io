@@ -11,7 +11,7 @@ RPM, YUM, Source 등을 통한 Software 관리
 <!--more-->
 
 * toc part
-{:toc}
+{:toc .large-only}
 
 ## Software 관리
 ### RPM 패키지 관리

@@ -11,7 +11,7 @@ image: >-
 <!--more-->
 
 * toc part
-{:toc}
+{:toc .large-only}
 
 # 부팅과정
 ## firmware 단계

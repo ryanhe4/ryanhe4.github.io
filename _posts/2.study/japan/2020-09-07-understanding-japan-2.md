@@ -13,7 +13,7 @@ image: assets/img/blog/steve-harvey.jpg
 <!--more-->
 
 * toc table
-{:toc}
+{:toc .large-only}
 
 ## 일본의 국가
 * **기미가요** - 천황이 다스리는 시대

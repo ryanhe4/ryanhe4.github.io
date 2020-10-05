@@ -12,7 +12,7 @@ Linux 기본 명령어
 <!--more-->
 
 * toc table
-{:toc}
+{:toc .large-only}
 
 # 시스템 기본 정보
 

@@ -11,7 +11,7 @@ image: assets/img/blog/steve-harvey.jpg
 <!--more-->
 
 * toc table
-{:toc}
+{:toc .large-only}
 
 ## 공포만화
 * DC는 어려운 1950년대 타계를 위해 다양한 장르를 실험했는데 결과는 좋지 않았음
@@ -161,4 +161,3 @@ image: assets/img/blog/steve-harvey.jpg
 
 
     
-      

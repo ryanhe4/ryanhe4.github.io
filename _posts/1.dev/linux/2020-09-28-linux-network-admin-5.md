@@ -19,7 +19,7 @@ MAIL SERVER, SMTP(Simple Mail Transfer Protocol)
 <!--more-->
 
 * toc
-{:toc}
+{:toc .large-only}
 
 ## postfix => sendmail
 ```console

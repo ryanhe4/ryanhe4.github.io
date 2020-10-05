@@ -10,7 +10,7 @@ Node JS 호출스택, 이벤트 루프에 대한 정리
 <!--more-->
 
 * toc line
-{:toc}
+{:toc .large-only}
 
 ## 호출 스택, 이벤트루프
 **호출 스택**<br>

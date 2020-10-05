@@ -11,7 +11,7 @@ DNS
 <!--more-->
 
 * toc
-{:toc}
+{:toc .large-only}
 
 # DNS
 서비스 설정 가이드(DNS 서비스)

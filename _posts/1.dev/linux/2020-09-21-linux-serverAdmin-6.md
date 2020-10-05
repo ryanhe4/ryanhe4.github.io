@@ -11,7 +11,7 @@ image: >-
 <!--more-->
 
 * toc part
-{:toc}
+{:toc .large-only}
 
 # 백업 개요
 ## 백업의 개념

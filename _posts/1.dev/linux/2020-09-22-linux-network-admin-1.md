@@ -11,7 +11,7 @@ nmcli를 통한 네트워크 제어
 <!--more-->
 
 * toc
-{:toc}
+{:toc .large-only}
 
 # 서비스제어
 

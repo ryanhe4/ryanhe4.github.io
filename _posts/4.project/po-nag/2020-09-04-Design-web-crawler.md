@@ -9,7 +9,7 @@ date: '2020-09-04 18:30:00 +0900'
 <!--more-->
 
 * toc table
-{:toc}
+{:toc .large-only}
 
 ## 웹 크롤러 설계
 

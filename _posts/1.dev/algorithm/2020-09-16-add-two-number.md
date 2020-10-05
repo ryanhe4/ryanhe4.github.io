@@ -13,7 +13,7 @@ image: >-
 <!--more-->
 
 * this is toc
-{:toc}
+{:toc .large-only}
 
 ![개요](/assets/img/dev/algorithm/2.PNG)
 

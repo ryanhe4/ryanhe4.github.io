@@ -12,7 +12,7 @@ image: >-
 <!--more-->
 
 * toc label
-{:toc}
+{:toc .large-only}
 
 ## 쉘의특성2
 **메타 캐릭터(Shell Metacharacter)**<br>

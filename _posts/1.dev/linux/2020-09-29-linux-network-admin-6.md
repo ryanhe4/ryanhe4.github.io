@@ -11,7 +11,7 @@ NFS(Network File System)
 <!--more-->
 
 * toc
-{:toc}
+{:toc .large-only}
 
 ## NFS Server on Cent OS 7.X 
 * Program: nfs-utils

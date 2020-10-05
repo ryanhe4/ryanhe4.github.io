@@ -11,7 +11,7 @@ image: >-
 <!--more-->
 
 * toc part
-{:toc}
+{:toc .large-only}
 
 ## 기타 마운트 관리
 ### CD/ DVD 마운트

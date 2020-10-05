@@ -12,7 +12,7 @@ image: assets/img/blog/steve-harvey.jpg
 <!--more-->
 
 * toc table
-{:toc}
+{:toc .large-only}
 
 ## 만화의 개념과 정의
 만화 : 완성된 하나의 생각을 갖고 있는 그림(모리스 혼)

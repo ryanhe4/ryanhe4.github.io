@@ -11,7 +11,7 @@ image: assets/img/blog/steve-harvey.jpg
 <!--more-->
 
 * toc table
-{:toc}
+{:toc .large-only}
 
 ## 현대만화의 개척자들
 ### 루돌프 토페르

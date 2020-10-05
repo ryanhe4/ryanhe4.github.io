@@ -11,7 +11,7 @@ FTP(File Transfer Protocol)
 <!--more-->
 
 * toc
-{:toc}
+{:toc .large-only}
 
 ## vsftpd FTP Server on Cent OS 7.X 
 * Program: vsftpd ftp

@@ -11,7 +11,7 @@ image: assets/img/blog/steve-harvey.jpg
 <!--more-->
 
 * toc table
-{:toc}
+{:toc .large-only}
 
 # 1980년대 그래픽노블의 대중화
 만화책에 대한 인식의 변화, 팬숍에 기초한 보다 전문적인 판매망 일반화, 과거의 신문판매소 시장이 빠른 속도로 쇠퇴
