@@ -141,3 +141,14 @@ pre.highlight {
   margin-left: 0;
   margin-right: 0;
 }
+
+.warning {
+  background-color: rgba(252, 222, 199, 1);
+  border: 1px solid rgb(254, 104, 67);
+  padding: 10px;
+  font-size: 0.75em;
+  margin-bottom: 15px;
+}
+.warning-text {
+  font-size: 1em !important;
+}
