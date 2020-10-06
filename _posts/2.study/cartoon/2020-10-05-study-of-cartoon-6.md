@@ -5,6 +5,7 @@ tag: cartoon
 date: '2020-10-05 22:00:00 +0900'
 title: 만화개론 6주차 - 만화장르
 image: assets/img/blog/steve-harvey.jpg
+published:false
 ---
 만화학개론 6주차 강의내용 정리입니다.
 

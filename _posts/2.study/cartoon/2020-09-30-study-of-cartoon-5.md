@@ -5,6 +5,7 @@ tag: cartoon
 date: '2020-09-30 18:00:00 +0900'
 title: 만화개론 5주차- 만화의 확대
 image: assets/img/blog/steve-harvey.jpg
+last_modified_at: '2020-10-06 09:00:00 +0900'
 ---
 만화학개론 5주차 강의내용 정리입니다. 1980년대, 1990년대, 2000년대
 
@@ -178,5 +179,5 @@ image: assets/img/blog/steve-harvey.jpg
 플로우차트 형태의 만화 제작 도구인 타퀸 엔진을 통해 제작된 만화는 무한 캔버스의 공간적 특성을 이용하여
 자유자재로 가시 공간을 줌인, 줌아웃 시키면서 가지를 따라 독자가 원하는 대로 시선을 이동할 수 있음
 
-테스트테스트
-{:.warning .warning-text}
+1. text for this list item
+   further text (indent 3 spaces)
