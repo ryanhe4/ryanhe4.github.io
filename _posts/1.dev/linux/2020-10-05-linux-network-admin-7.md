@@ -64,6 +64,7 @@ local0.notice   /var/log/file.log
 
 * 로그 파일 예: `/var/log/messages`
 * 로그 내용 예: `Apr 16 14:04:42 linux249 smbd[6580]:   prs_grow: Buffer overflow - unable to expand buffer by 2 bytes.`
+
 ```console
 # alias grep='grep -i --color'
 # alias egrep='egrep -i --color'
