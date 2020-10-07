@@ -10,7 +10,8 @@ image: assets/img/blog/steve-harvey.jpg
 
 <!--more-->
 
-* {:toc .large-only} toc table 
+* toc table 
+{:toc .large-only}
 
 # 대중문화와 장르
 

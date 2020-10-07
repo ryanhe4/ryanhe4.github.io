@@ -11,7 +11,8 @@ Log, rsyslog, 로그서버
 
 <!--more-->
 
-* toc {:toc .large-only}
+* toc table
+{:toc .large-only}
 
 ## rsyslog Server on Cent OS 7.X
 
