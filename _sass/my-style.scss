@@ -8,10 +8,11 @@
     }
   }
 
-  .btn, .gumroad-button  {
+  .btn, .gumroad-button {
     margin: 1rem 0;
   }
 }
+
 .dl-table {
   a {
     padding-bottom: 0.4rem;
@@ -36,7 +37,7 @@
 }
 
 a.sidebar-nav-item {
-  width:100%;
+  width: 100%;
   font-weight: normal;
   display: block;
   padding: .25rem 0;
@@ -82,17 +83,17 @@ a.sidebar-nav-subitem {
   color: #4FB1BA;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
   position: absolute;
   left: -9999px;
 }
 
-input[type="checkbox"] ~ ul{
+input[type="checkbox"] ~ ul {
   height: 0;
   transform: scaleY(0);
 }
 
-input[type="checkbox"]:checked ~ ul{
+input[type="checkbox"]:checked ~ ul {
   list-style: none;
   height: 100%;
   transform-origin: top;
@@ -110,13 +111,13 @@ input[type="checkbox"]:checked ~ ul{
 // Printing
 
 @media print {
-   a[href]:after {
-      display: none;
-      visibility: hidden;
-   }
+  a[href]:after {
+    display: none;
+    visibility: hidden;
+  }
 }
 
-article{
+article {
   h1 {
     border-left: 5px #DD4C39 solid;
     padding-left: 10px;
@@ -124,13 +125,14 @@ article{
     margin-top: 4rem;
     font-size: 28px;
   }
+
   h3, h2 {
     padding-bottom: .5rem;
     border-bottom: 2px solid;
   }
 
   h2.blue-text {
-    color:#005ecb;
+    color: #005ecb;
     padding-top: 5px;
     border-bottom: 3px solid #005ecb;
     border-left: 10px solid #005ecb;
@@ -138,8 +140,10 @@ article{
     font-weight: bold;
     line-height: 1.25;
     font-size: 1.25rem;
+    padding-left: 10px
   }
 }
+
 pre.highlight {
   margin-left: 0;
   margin-right: 0;
@@ -158,9 +162,44 @@ pre.highlight {
 }
 
 p.warning-text {
-    text-decoration: none;
-    padding-right: 5px;
-    padding-left: 5px;
-    color: rgb(247, 22, 22);
+  text-decoration: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: rgb(247, 22, 22);
+  font-weight: bold;
+}
+
+blockquote::before {
+  font-family: Arial;
+  content: "\203C";
+  font-size: 3em;
+  position: absolute;
+  left: 7px;
+  top: -20px;
+}
+
+blockquote::before {
+  content: "";
+}
+
+blockquote {
+  font-size: 1.4em;
+  width: 60%;
+  margin: 50px auto;
+  font-family: Open Sans;
+  font-style: italic;
+  color: #555555;
+  padding: 1.2em 30px 1.2em 75px;
+  border-left: 8px solid #78C0A8;
+  line-height: 1.6;
+  position: relative;
+  background: #EDEDED;
+
+  span {
+    display: block;
+    color: #333333;
+    font-style: normal;
     font-weight: bold;
+    margin-top: 1em;
+  }
 }
