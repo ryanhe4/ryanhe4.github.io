@@ -171,11 +171,11 @@ p.warning-text {
 
 blockquote::before {
   font-family: Arial;
-  content: "\203C";
-  font-size: 3em;
+  content: "\26a0";
+  font-size: 2em;
   position: absolute;
-  left: 7px;
-  top: -15px;
+  left: 9px;
+  top: -4px;
 }
 
 blockquote::after {
