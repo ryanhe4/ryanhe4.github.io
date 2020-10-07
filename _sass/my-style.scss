@@ -117,21 +117,18 @@ input[type="checkbox"]:checked ~ ul {
   }
 }
 
-article {
-  h1 {
-    border-left: 5px #DD4C39 solid;
-    padding-left: 10px;
-    margin-bottom: 15px;
-    margin-top: 4rem;
-    font-size: 28px;
-  }
 
-  h3, h2 {
+article {
+  h3, h4 {
     padding-bottom: .5rem;
     border-bottom: 2px solid;
   }
 
-  h2.blue-text {
+  h1.post-title {
+    margin-left: -1rem;
+  }
+
+  h2 {
     color: #005ecb;
     padding-top: 5px;
     border-bottom: 3px solid #005ecb;
@@ -141,6 +138,13 @@ article {
     line-height: 1.25;
     font-size: 1.25rem;
     padding-left: 10px
+  }
+  h2.red-text {
+      border-left: 5px #DD4C39 solid;
+      padding-left: 10px;
+      margin-bottom: 15px;
+      margin-top: 4rem;
+      font-size: 28px;
   }
 }
 
