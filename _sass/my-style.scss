@@ -116,25 +116,28 @@ input[type="checkbox"]:checked ~ ul{
    }
 }
 
-blockquote {
-  background-color: #F9F9F9;
-  color:#005ecb;
-  padding-top: 5px;
-  border-bottom: 3px solid #005ecb;
-  border-left: 10px solid #005ecb;
-  margin-bottom: 1px;
-  font-weight: bold;
-  line-height: 1.25;
-  font-size: 1.25rem;
-}
-
 article{
-  h2 {
+  h1 {
     border-left: 5px #DD4C39 solid;
     padding-left: 10px;
     margin-bottom: 15px;
     margin-top: 4rem;
     font-size: 28px;
+  }
+  h3, h2 {
+    padding-bottom: .5rem;
+    border-bottom: 2px solid;
+  }
+
+  h2.blue-text {
+    color:#005ecb;
+    padding-top: 5px;
+    border-bottom: 3px solid #005ecb;
+    border-left: 10px solid #005ecb;
+    margin-bottom: 1px;
+    font-weight: bold;
+    line-height: 1.25;
+    font-size: 1.25rem;
   }
 }
 pre.highlight {
