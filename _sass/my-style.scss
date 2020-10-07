@@ -184,10 +184,10 @@ blockquote::after {
 
 blockquote {
   color: #555555;
-  border-left: 8px solid #555555;
+  border-left: none;
   line-height: 1.6;
   position: relative;
-
+  padding: .5rem 2rem;
   span {
     display: block;
     color: #333333;
