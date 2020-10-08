@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "리눅스 네트워크 관리 - SSH & DB"
+title: 리눅스 네트워크 관리 - SSH & DB
 date: 2020-10-07 09:51:00 +0900
 categories: dev
 tags: linux
 image: >-
-https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg
+    https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg
 ---
 SSH 설정 및 mariaDB 설정
 
 <!--more-->
 
 * toc table
-  {:toc .large-only}
+{:toc .large-only}
 
 > 와이어 샤크 설치
 
@@ -139,10 +139,9 @@ MariaDB > exit
 # mysql -u root -p
 ```
 
-
-```console
-[root@zetawiki ~]# ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
-[root@zetawiki ~]# rdate -s time.nist.gov
-[root@zetawiki ~]# hwclock --systohc
-[root@zetawiki ~]# date
+```properties
+# mysql_secure_installation
+# systemctl enable mariadb
+# systemctl start mariadb
+# mysql -u root -p
 ```
