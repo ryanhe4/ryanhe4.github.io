@@ -118,7 +118,7 @@ input[type="checkbox"]:checked ~ ul {
 }
 
 
-article {
+article.post {
   h3, h4 {
     padding-bottom: .5rem;
     border-bottom: 2px solid;
@@ -133,18 +133,20 @@ article {
     padding-top: 5px;
     border-bottom: 3px solid #005ecb;
     border-left: 10px solid #005ecb;
-    margin-bottom: 1px;
     font-weight: bold;
     line-height: 1.25;
     font-size: 28px;
-    padding-left: 10px
-  }
-  h2.red-text {
+    padding-left: 10px;
+    margin-top: 2rem;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+
+    .red-text{
       border-left: 5px #DD4C39 solid;
       padding-left: 10px;
-      margin-bottom: 15px;
       margin-top: 4rem;
       font-size: 28px;
+    }
   }
 }
 
@@ -197,4 +199,5 @@ blockquote {
   font-size: 1.5rem;
   border: 2px solid rgb(254, 104, 67);
   border-radius: 10px;
+  display: inline-block;
 }

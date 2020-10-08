@@ -15,7 +15,6 @@ Log, rsyslog, 로그서버
 {:toc .large-only}
 
 ## rsyslog Server on Cent OS 7.X
-{:.blue-text}
 
 * Program: rsyslog
 * Daemon & Port & Protocol: rsyslogd(514/tcp,udp)
