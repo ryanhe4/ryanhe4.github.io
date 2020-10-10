@@ -1,5 +1,6 @@
 .note:before {
   content: "{{ site.data.strings.note | default:'Note' }}";
+  text-transform: none;
 }
 .page > header > .note-sm:before {
   content: "{{ site.data.strings.description | default:'Description' }}";
