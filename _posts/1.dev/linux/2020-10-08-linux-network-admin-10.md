@@ -37,7 +37,7 @@ date
 <hr/>
 
 ### Main NTP Server 구성
-```console
+```coffeescript
 # telnet 172.16.6.252
 root 사용자로 로그인
 # cat /etc/ntp.conf
@@ -55,13 +55,15 @@ server  127.127.1.0 # local clock
 -> Asia/Seoul
 # timedatectl set-timezone Asia/Seoul
 ```
-서버 설정
-# vi /etc/chrony.conf
-```properties
+
+**서버 설정**
+```coffeescript
 server 172.16.6.252 iburst
 allow 172.16.6.0/24
 ```
-시스템 재기동
+{:.note title="/etc/chrony.conf"}
+
+**시스템 재기동**
 ```console
 # systemctl restart chronyd
 [TERM2] # tcpdump -i ens33 port 123
@@ -71,15 +73,25 @@ allow 172.16.6.0/24
 ```console
 # timedatectl
 # timedatectl set-timezones Asia/Seoul
+
+# chrouyc sources -v 
+# timedatectl 
+-> NTP synchronized: yes
 ```
-서버 설정
+
+**서버 설정**
 ```properties
+# yum install chrony
 # vi /etc/chrony.conf
 server 172.16.6.222 iburst
 ```
-시스템 재기동
+
+**시스템 재기동**
 ```console
 # systemctl restart chronyd
 [TERM2] # tcpdump -i ens33 port 123
+
+# chronyc sources -v
+# timedatectl
 ```
 
