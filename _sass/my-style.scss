@@ -181,7 +181,7 @@ blockquote::before {
   font-size: 2rem;
   position: absolute;
   left: 10px;
-  top: 2px;
+  top: 0px;
   color: rgb(254, 104, 67);
 }
 
@@ -194,10 +194,9 @@ blockquote {
   border-left: none;
   line-height: 1.1;
   position: relative;
-  padding: .5rem 2.5rem;
+  padding: .5rem 3rem;
   font-weight: bold;
-  font-size: 1.5rem;
-  border: 2px solid rgb(254, 104, 67);
-  border-radius: 10px;
+  font-size: 1.2rem;
+  border-bottom: 2px solid rgb(254, 104, 67);
   display: inline-block;
 }

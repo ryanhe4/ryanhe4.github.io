@@ -17,8 +17,8 @@ SSH 설정 및 mariaDB 설정
 > 와이어 샤크 설치
 
 ```console
-# yum install wireshare wireshare-gnome
-# wireshare &
+# yum install wireshark wireshark-gnome
+# wireshark &
 ```
 
 ## SSH(sshd) Server on Cent OS 7.X
@@ -133,13 +133,6 @@ MariaDB > exit
 ### mariadb 설치 및 설정
 ```console
 # yum install mariadb mariadb-server
-# mysql_secure_installation
-# systemctl enable mariadb
-# systemctl start mariadb
-# mysql -u root -p
-```
-
-```properties
 # mysql_secure_installation
 # systemctl enable mariadb
 # systemctl start mariadb
