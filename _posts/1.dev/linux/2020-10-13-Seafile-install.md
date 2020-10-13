@@ -4,14 +4,13 @@ title: "[Manjaro] Seafile Server 설치하기"
 date: 2020-10-13 18:53:00 +0900
 categories: dev
 tags: linux
-image: >-
-https://www.unixmen.com/wp-content/uploads/2017/03/seafilelogo-800x445.jpg
+image: https://www.unixmen.com/wp-content/uploads/2017/03/seafilelogo-800x445.jpg
 ---
 `Seafile`은 웹 오픈소스 파일 공유 서비스 입니다. 설치와 설정이 간단합니다. Manjaro에 Seafile Server 설치를 해봅시다.
 <!--more-->
 
-* toc
-  {:toc .large-only}
+* toc 
+{:toc .large-only}
 
 ## 설치
 설치는 다음 세개의 패키지를 설치해야합니다.
