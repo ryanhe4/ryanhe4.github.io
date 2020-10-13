@@ -21,6 +21,13 @@ layout: page
 
     <h2 id="{{ list_group_by | slugify }}-{{ current_date | slugify }}">{{ current_date }}</h2>
     <div class="columns columns-break">
+    {% assign prev_date = current_date %}
+  {% endif %}{% endunless %}
+  {% if post.hidden != true %}
+  {% assign featured = page.featured | default:post.featured %}
+  <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
+    {% include_cached pro/post-card.html post=post featured=featured %}
+  </div>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle"
              style="display:block"
@@ -31,14 +38,6 @@ layout: page
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-    {% assign prev_date = current_date %}
-  {% endif %}{% endunless %}
-  {% if post.hidden != true %}
-  {% assign featured = page.featured | default:post.featured %}
-  <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
-    {% include_cached pro/post-card.html post=post featured=featured %}
-
-  </div>
   {% endif %}
   {% if forloop.last %}</div>{% endif %}
 {% endfor %}
