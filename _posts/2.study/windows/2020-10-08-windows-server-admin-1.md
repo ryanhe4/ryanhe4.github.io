@@ -4,7 +4,8 @@ title: "Windows 서버 관리 1"
 date: 2020-10-08 14:47:00 +0900 
 categories: study
 tags: windows
-image: https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg
+image: >-
+    https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg
 ---
 윈도우 기본 명령어 / 기본 기능
 
