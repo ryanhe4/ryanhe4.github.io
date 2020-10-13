@@ -21,6 +21,16 @@ layout: page
 
     <h2 id="{{ list_group_by | slugify }}-{{ current_date | slugify }}">{{ current_date }}</h2>
     <div class="columns columns-break">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-format="fluid"
+             data-ad-layout-key="-bp-24+4p-et+4w"
+             data-ad-client="ca-pub-7859405181483541"
+             data-ad-slot="3141322057"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
     {% assign prev_date = current_date %}
   {% endif %}{% endunless %}
   {% if post.hidden != true %}
@@ -31,14 +41,4 @@ layout: page
   </div>
   {% endif %}
   {% if forloop.last %}</div>{% endif %}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-bp-24+4p-et+4w"
-     data-ad-client="ca-pub-7859405181483541"
-     data-ad-slot="3141322057"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 {% endfor %}
