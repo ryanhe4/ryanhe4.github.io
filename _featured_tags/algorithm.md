@@ -1,5 +1,5 @@
 ---
-layout: tag-list
+layout: grid
 title: Algorithm
 slug: algorithm
 category: dev

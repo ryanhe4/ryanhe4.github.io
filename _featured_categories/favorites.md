@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: grid
 title: Favorites
 slug: favorites
 menu: true

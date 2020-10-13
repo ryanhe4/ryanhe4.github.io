@@ -1,5 +1,5 @@
 ---
-layout: tag-list
+layout: grid
 title: Favorites
 slug: favorites
 category: favorites

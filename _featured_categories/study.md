@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: grid
 title: Study
 slug: study
 menu: true

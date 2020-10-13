@@ -1,5 +1,5 @@
 ---
-layout: tag-list
+layout: grid
 title: linux
 slug: linux
 category: dev

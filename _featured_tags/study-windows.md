@@ -1,5 +1,5 @@
 ---
-layout: tag-list
+layout: grid
 title: Windows
 slug: windows
 category: study

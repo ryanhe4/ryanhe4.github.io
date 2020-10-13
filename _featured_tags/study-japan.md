@@ -1,5 +1,5 @@
 ---
-layout: tag-list
+layout: grid
 title: Japan
 slug: japan
 category: study

@@ -1,5 +1,5 @@
 ---
-layout: tag-list
+layout: grid
 title: Bigdata
 slug: bigdata
 category: study

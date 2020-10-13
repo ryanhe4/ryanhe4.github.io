@@ -1,5 +1,5 @@
 ---
-hidden: true
+hidden: grid
 layout: tag-list
 title: Cartoon
 slug: cartoon

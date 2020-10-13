@@ -1,5 +1,5 @@
 ---
-layout: tag-list
+layout: grid
 title: C++
 slug: c++
 category: dev

@@ -1,5 +1,5 @@
 ---
-layout: tag-list
+layout: grid
 title: Node.js
 slug: node.js
 category: dev

@@ -1,5 +1,5 @@
 ---
-layout: tag-list
+layout: grid
 title: Reversing
 slug: reversing
 category: dev
