@@ -35,11 +35,22 @@ layout: page
     <div class="columns columns-break">
     {% assign prev_date = current_date %}
   {% endif %}{% endunless %}
-  {% if post.hidden != true %}
+<!--  {% if post.hidden != true %}-->
   {% assign featured = page.featured | default:post.featured %}
   <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
     {% include_cached pro/post-card.html post=post featured=featured %}
   </div>
-  {% endif %}
+<!--  {% endif %}-->
   {% if forloop.last %}</div>{% endif %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Category AD -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7859405181483541"
+     data-ad-slot="4443442239"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 {% endfor %}
