@@ -38,8 +38,6 @@
     {% include components/message.html text=post.description hide=hide_description alt=alt %}
   </header>
   {% if no_excerpt %}
-    {{ post.content }}
-
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <ins class="adsbygoogle"
        style="display:block; text-align:center;"
@@ -49,6 +47,8 @@
        data-ad-slot="2775314950"></ins>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
+
+    {{ post.content }}
   </script>
 
   {% else %}
