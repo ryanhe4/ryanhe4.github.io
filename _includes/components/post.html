@@ -11,7 +11,6 @@
         {{ post.title }}
       {% unless no_link_title %}</a>{% endunless %}
     </h1>
-
     <div class="post-date">
       {% unless site.hydejack.hide_dates %}
         {% assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" %}
@@ -26,7 +25,6 @@
       {% include components/tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator %}
       {% include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator %}
     </div>
-
     {% assign alt = false %}
     {% unless hide_image %}{% if post.image %}
       {% unless no_link_title %}<a href="{{ post.url | relative_url }}" class="no-hover no-print-link {% unless post.hide_image %}flip-project{% endunless %}" tabindex="-1">{% endunless %}
@@ -52,5 +50,15 @@
       </p>
     </footer>
 <!-- ad추가 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-format="fluid"
+       data-ad-layout-key="-9y+5x+68-em-77"
+       data-ad-client="ca-pub-7859405181483541"
+       data-ad-slot="2879551885"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
   {% endif %}
 </article>
