@@ -7,17 +7,6 @@ layout: page
 
 {{ content }}
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="fluid"
-     data-ad-layout-key="-7s+ez-s-4k+b5"
-     data-ad-client="ca-pub-7859405181483541"
-     data-ad-slot="8223695133"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 {% assign date_formats  = site.data.strings.date_formats               %}
 {% assign list_group_by = date_formats.list_group_by | default:"%Y"    %}
 {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
@@ -54,6 +43,18 @@ layout: page
   </div>
 
   {% if forloop.last %}</div>{% endif %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-7s+ez-s-4k+b5"
+     data-ad-client="ca-pub-7859405181483541"
+     data-ad-slot="8223695133"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
 <!--&lt;!&ndash; Category AD &ndash;&gt;-->
 <!--<ins class="adsbygoogle"-->
