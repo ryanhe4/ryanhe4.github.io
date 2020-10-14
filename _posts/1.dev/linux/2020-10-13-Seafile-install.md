@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Manjaro] Seafile Server 설치하기"
+title: "Manjaro - Seafile Server 설치하기"
 date: 2020-10-13 18:53:00 +0900
 categories: dev
 tags: linux
@@ -78,7 +78,7 @@ db에는 mariadb와 sqlite, postgresql 등을 사용할 수 있는 것 같습니
 ```console
 # ./seafile.sh start
 ```
-* `seahub.sh` 실행 / 처음 실행 시 관리자 계정 생성할 수 있습니다. 
+* `seahub.sh` 실행 / 처음 실행 시 관리자 계정을 생성할 수 있습니다. 
 ```console
 # ./seahub.sh start
 ```

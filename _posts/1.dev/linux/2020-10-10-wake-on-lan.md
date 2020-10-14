@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Manjaro wol(Wake On Lan) 설정"
+title: "Manjaro - Wake On Lan 설정"
 date: 2020-10-10 16:09:00 +0900
 categories: dev
 tags: linux
