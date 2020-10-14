@@ -36,18 +36,6 @@ layout: base
 
 {% for post in posts %}
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Category AD -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7859405181483541"
-     data-ad-slot="4443442239"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 
 {% assign currentdate = post.date | date:list_group_by %}
 {% if currentdate != date %}
