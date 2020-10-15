@@ -19,6 +19,7 @@ RAID : 관리 용이, 성능 향상 위해 가상 볼륨을 구성
 * E-IDE -> SATA
 * SCSI -> SAS
 * SSD
+
 ### RAID의 종류
 * software
     - R0 , R1 ,R5 + R6 ,R7
