@@ -133,7 +133,7 @@ RAID : 관리 용이, 성능 향상 위해 가상 볼륨을 구성
 * inetmgr - 디렉터리 검색
   ![image](https://user-images.githubusercontent.com/47705875/96089187-6cd1ba00-0f01-11eb-961d-02df7f9cc42a.png)
   ![image](https://user-images.githubusercontent.com/47705875/96089298-98ed3b00-0f01-11eb-9abe-5e7609a95426.png)
-* inetmgr - 가상디렉토리
+* inetmgr - 가상디렉토리<br>
   ![image](https://user-images.githubusercontent.com/47705875/96093013-980ad800-0f06-11eb-92cb-06c4e31773e8.png)
   ![image](https://user-images.githubusercontent.com/47705875/96093148-c12b6880-0f06-11eb-932b-725a8507fd8c.png)
 
@@ -144,7 +144,7 @@ RAID : 관리 용이, 성능 향상 위해 가상 볼륨을 구성
   - 파일 및 프린터 공유 (에코 요청 - ICMPv4-in)
   - 파일 및 프린터 공유 (에코 요청 - ICMPv6-in)
 * Anonymous FTP 서버 업로드 가능 설정
-  - 사용 권한 편집 : `IUSR` 권한 -> 읽기/쓰기
+  - 사용 권한 편집 : `IUSR` 권한 -> 읽기/쓰기<br>
     ![image](https://user-images.githubusercontent.com/47705875/96095482-9858a280-0f09-11eb-879e-df43722df15a.png)
 * 연결
 ![image](https://user-images.githubusercontent.com/47705875/96094452-57ac5980-0f08-11eb-8aa0-d780c66a00c4.png)
