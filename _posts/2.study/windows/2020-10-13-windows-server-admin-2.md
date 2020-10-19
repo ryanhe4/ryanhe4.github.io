@@ -6,12 +6,14 @@ categories: study
 tags: windows
 image: https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg
 ---
-윈도우 기본 명령어 / 기본 기능
-
+* 윈도우 디스크 관리
+* 윈도우 원격 서버 관리
+* 윈도우 웹/FTP 서버 관리
+* 윈도우 DNS 서버 관리
 <!--more-->
 
 * toc table
-  {:toc .large-only}
+{:toc .large-only}
 
 ## 하드웨어 관리와 RAID
 RAID : 관리 용이, 성능 향상 위해 가상 볼륨을 구성
@@ -150,3 +152,23 @@ RAID : 관리 용이, 성능 향상 위해 가상 볼륨을 구성
 ![image](https://user-images.githubusercontent.com/47705875/96094452-57ac5980-0f08-11eb-8aa0-d780c66a00c4.png)
 
 ## DNS서버 설치와 운영
+* `C:\Windows\system32\drivers\etc\hosts`
+
+### Cashing Only DNS Server
+1. 역할 추가(DNS Server)
+1. 서비스 설정
+1. 서비스 기동
+1. 방화벽 등록
+
+### brain.com DNS Server 구성
+* Web (IIS) Server 구성
+* FTP Server 구성
+* DNS Server 구성
+  ![image](https://user-images.githubusercontent.com/47705875/96208460-8712a300-0fa8-11eb-8597-7b7caa9e7c3d.png)
+  ![image](https://user-images.githubusercontent.com/47705875/96208510-a8738f00-0fa8-11eb-8127-40cf79effac8.png)
+* DNS 캐시 삭제 : `ipconfig /flushdns`
+
+### MAIL 서버 구성
+### MAIL 클라이언트 구성
+
+## DHCP 서버 

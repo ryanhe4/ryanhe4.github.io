@@ -148,6 +148,14 @@ article.post {
       font-size: 28px;
     }
   }
+
+  p {
+    color: #666 !important;
+
+    > strong {
+      color: var(--body-color);
+    }
+  }
 }
 
 pre.highlight {
@@ -188,7 +196,6 @@ blockquote {
   font-size: 0.75em;
   margin-bottom: 15px;
 }
-
 
 //blockquote::before {
 //  font-family: Arial;
