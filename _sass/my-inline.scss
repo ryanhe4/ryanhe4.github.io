@@ -15,6 +15,11 @@
     background-color: transparent;
     font-weight: bold;
   }
+  article.post {
+    > p {
+      color: #ccc;
+    }
+  }
 }
 
 @media screen {
