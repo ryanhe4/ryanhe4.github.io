@@ -1,6 +1,5 @@
 ---
-hidden: grid
-layout: tag-list
+layout: grid
 title: Cartoon
 slug: cartoon
 category: study
