@@ -147,10 +147,28 @@ article.post {
       margin-top: 4rem;
       font-size: 28px;
     }
+
+    blockquote {
+      font-size: 1em !important;
+      text-decoration: none;
+      padding-right: 5px;
+      padding-left: 5px;
+      font-weight: bold;
+      background-color: rgba(252, 222, 199, 1);
+      border: 1px solid rgb(254, 104, 67);
+      padding: 10px;
+      font-size: 0.75em;
+      margin-bottom: 15px;
+
+      > p {
+        color: rgb(247, 22, 22);
+      }
+    }
+
   }
 
   p {
-    color: #666 !important;
+    color: #666;
 
     > strong {
       color: var(--body-color);
@@ -181,20 +199,6 @@ p.warning-text {
   padding-left: 5px;
   color: rgb(247, 22, 22);
   font-weight: bold;
-}
-
-blockquote {
-  font-size: 1em !important;
-  text-decoration: none;
-  padding-right: 5px;
-  padding-left: 5px;
-  color: rgb(247, 22, 22);
-  font-weight: bold;
-  background-color: rgba(252, 222, 199, 1);
-  border: 1px solid rgb(254, 104, 67);
-  padding: 10px;
-  font-size: 0.75em;
-  margin-bottom: 15px;
 }
 
 //blockquote::before {
