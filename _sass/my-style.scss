@@ -151,9 +151,9 @@ article.post {
 
  > p {
     color: #666;
-    //> strong {
-    //  color: var(--body-color);
-    //}
+    > strong {
+      color: var(--body-color);
+    }
   }
 }
 
