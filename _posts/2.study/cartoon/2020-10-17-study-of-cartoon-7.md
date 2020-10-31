@@ -3,7 +3,7 @@ hidden: true
 categories: study
 tag: cartoon
 date: '2020-10-17 16:43:00 +0900' 
-title: 만화개론  
+title: 만화개론 7주차
 image: assets/img/blog/steve-harvey.jpg
 ---
 만화학개론 7주차 강의내용 정리입니다.
