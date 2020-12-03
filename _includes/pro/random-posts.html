@@ -3,8 +3,8 @@
 {% assign random_posts = site.posts | where_exp:"post", "post.url != page.url"| where_exp:"post", "post.tags.first == page.tags.first" | sample:3 %}
 
 {% if random_posts.size < 3 %}
-  {% assign random_posts2 = site.posts | where_exp:"post", "post.url != page.url"| where_exp:"post", "post.categories.first == page.categories.first" | sample:3 %}
-  {% assign random_posts = random_posts| concat:random_posts2 | uniq %}
+{% assign random_posts2 = site.posts | where_exp:"post", "post.url != page.url"| where_exp:"post", "post.categories.first == page.categories.first" | sample:3 %}
+{% assign random_posts = random_posts| concat:random_posts2 | uniq %}
 {% endif %}
 
 {% if random_posts.size > 0 %}
@@ -14,7 +14,7 @@
 
   <ul class="related-posts">
     {% for post in random_posts limit:3 %}
-      {% include_cached components/post-list-item.html post=post %}
+    {% include_cached components/post-list-item.html post=post %}
     {% endfor %}
   </ul>
 </aside>

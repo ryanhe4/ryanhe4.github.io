@@ -204,8 +204,9 @@ keybase:
   icon: icon-key
   prepend: "https://keybase.io/"
 download:
-  name: Download
+  name: WebDrive
   icon: icon-box-add
+  prepend: "https://drive.xploitdev.com/"
 
 leetcode:
   name: LeetCode

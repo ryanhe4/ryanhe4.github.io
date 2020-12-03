@@ -1,30 +1,3 @@
-.dl-table {
-  a {
-    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
-      text-underline-offset: .7rem;
-    }
-    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
-      padding-bottom: .3rem;
-    }
-  }
-
-  .btn, .gumroad-button {
-    margin: 1rem 0;
-  }
-}
-
-.dl-table {
-  a {
-    padding-bottom: 0.4rem;
-  }
-
-  .btn {
-    margin: 1.5rem 0;
-  }
-}
-
-// Sidebar Modification
-
 .sidebar {
   text-align: center;
 }
@@ -33,11 +6,10 @@
   position: absolute;
   height: 95%;
   padding-top: 5%;
-  margin: 0;
 }
 
 a.sidebar-nav-item {
-  width: 100%;
+  width:100%;
   font-weight: normal;
   display: block;
   padding: .25rem 0;
@@ -83,17 +55,17 @@ a.sidebar-nav-subitem {
   color: #4FB1BA;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"]{
   position: absolute;
   left: -9999px;
 }
 
-input[type="checkbox"] ~ ul {
+input[type="checkbox"] ~ ul{
   height: 0;
   transform: scaleY(0);
 }
 
-input[type="checkbox"]:checked ~ ul {
+input[type="checkbox"]:checked ~ ul{
   list-style: none;
   height: 100%;
   transform-origin: top;
@@ -101,125 +73,20 @@ input[type="checkbox"]:checked ~ ul {
   transform: scaleY(1);
 }
 
-// Resume
+//내부요소 설정
 
-.project-date {
-  font-weight: var(--font-weight);
-  display: inline;
-}
-
-// Printing
-
-@media print {
-  a[href]:after {
-    display: none;
-    visibility: hidden;
-  }
-}
-
-
-article.post {
-  h3, {
-    padding-bottom: .5rem;
-    border-bottom: 1px solid #9e9e9e;
-  }
-
-  h1.post-title {
-    margin-left: -1rem;
-  }
-
+main.layout-post > article {
   h2 {
-    color: #005ecb;
-    padding-top: 5px;
-    border-bottom: 3px solid #005ecb;
-    border-left: 10px solid #005ecb;
-    font-weight: bold;
-    line-height: 1.25;
-    font-size: 28px;
-    padding-left: 10px;
-    margin-top: 2rem;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-
-    .red-text {
-      border-left: 5px #DD4C39 solid;
-      padding-left: 10px;
-      margin-top: 4rem;
-      font-size: 28px;
-    }
+    border-bottom: thick double #666666;
   }
 
- > p {
-    color: #666;
-    > strong {
+  p {
+    color:#525f7f;
+    strong {
       color: var(--body-color);
     }
   }
+
 }
 
-pre.highlight {
-  margin-left: 0;
-  margin-right: 0;
-}
 
-.warning {
-  background-color: rgba(252, 222, 199, 1);
-  border: 1px solid rgb(254, 104, 67);
-  padding: 10px;
-  font-size: 0.75em;
-  margin-bottom: 15px;
-}
-
-.warning-text {
-  font-size: 1em !important;
-}
-
-p.warning-text {
-  text-decoration: none;
-  padding-right: 5px;
-  padding-left: 5px;
-  color: rgb(247, 22, 22);
-  font-weight: bold;
-}
-
-blockquote {
-  font-size: 1em !important;
-  text-decoration: none;
-  padding-right: 5px;
-  padding-left: 5px;
-  font-weight: bold;
-  background-color: rgba(252, 222, 199, 1);
-  border: 1px solid rgb(254, 104, 67);
-  padding: 10px;
-  font-size: 0.75em;
-  margin-bottom: 15px;
-  color: rgb(247, 22, 22);
-}
-
-//blockquote::before {
-//  font-family: Arial;
-//  content: "\26a0";
-//  font-size: 2rem;
-//  position: absolute;
-//  left: 10px;
-//  top: 0px;
-//  color: rgb(254, 104, 67);
-//}
-//
-//blockquote::after {
-//  content: "";
-//}
-//
-//blockquote {
-//  color: #555555;
-//  border-left: none;
-//  line-height: 1.1;
-//  position: relative;
-//  padding: .5rem 3rem;
-//  font-weight: bold;
-//  font-size: 1.2rem;
-//  border-bottom: 2px solid rgb(254, 104, 67);
-//  border-left: 6px solid rgb(254, 104, 67);
-//  display: inline-block;
-//  color: #fe6843;
-//}

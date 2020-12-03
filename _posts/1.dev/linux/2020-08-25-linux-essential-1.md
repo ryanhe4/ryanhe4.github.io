@@ -8,14 +8,15 @@ image: >-
     https://blog.kakaocdn.net/dn/wmqiw/btqyeITbhmg/rtV9KH1o3bsq4KeJWOrcL0/img.jpg 
 ---
 
-Linux 기본 명령어
+Linux 기본 명령어 정리 입니다. 
 
 <!--more-->
 
 * toc table
 {:toc .large-only}
 
-# 01. 런레벨(run level)
+## 런레벨(Run level)
+런레벨은 간단하게 리눅스 실행 레벨 즉 `GUI`인지 `TUI` 나타내는 개념입니다.
 
 ```python
 0   halt, poweroff
@@ -26,34 +27,40 @@ Linux 기본 명령어
 5   (GUI) multi-user mode with NFS
 6   reboot
 ```
-런레벨 확인 
+런레벨 확인 명령어 
 ```
 # who -r
 ```
-런레벨 조정
+런레벨 조정 명령어
 ```console
 # halt, # poweroff, #  reboot ,"(단일)"
 # init 3, # shutdown -h, "(다중)"
+# systemctl set-default ~
 ```
-# 02. 언어 확인(language confirm)
+
+## 언어 확인(language confirm)
 ```
-# echo $LANG (또는 # locale)
+# echo $LANG (또는 #locale)
 ```
 언어 변경(language change)
-```python
-(임시) # export LANG=en_US.UTF-8|ko_KR.UTF-8
-(영구) # localectl set-locale LANG=ko_KR.UTF-8
+```console
+# export LANG=en_US.UTF-8|ko_KR.UTF-8   (임시적 방법)
+# localectl set-locale LANG=ko_KR.UTF-8 (영구적인 방법)
 ```
-# 03. 쉘 프롬프트
- ```python
+
+## 쉘 프롬프트
+쉘 프롬프트는 명령어를 입력할 수있는 쉘 창, 즉 #을 의미합니다.
+
+ ```console
  [root@linux2XX ~] #
  ```
- 명령어 호출 
- ```python
+
+ **명령어 호출**
+ ```console
  # ls -a /var
  (프롬프트, 명령어, 옵션, 인자...)
  ```
-# 04. 관리자 암호 변경
+## 관리자 암호 변경
 1) terminal 명령어
 ```
 # passwd fedora
@@ -67,13 +74,14 @@ Linux 기본 명령어
   4 # passwd root
   5 강제 reboot| exec /sbin/init
   ```
-# 05. 제어 문자(Control Character)
-```python
+
+## 제어 문자(Control Character)
+```console
 * <CTRL + C> # interrupt
-* <CTRL + D> # 파일의 끝|exit
+* <CTRL + D> # 파일의 끝| exit
 ```
-# 도움말과 암호 변경
-> man CMD
+## 도움말과 암호 변경
+### man CMD
 
  ```console
  # man ls
@@ -83,9 +91,9 @@ Linux 기본 명령어
  passwd(5) : 5번 섹션 => # man 5 passwd
  passwd(1) : 1번 섹션 => # man 1 passwd 
  ```
-> passwd CMD
 
- ```
+### passwd CMD
+ ```console
  # passwd root
  # passwd fedora
 ```
@@ -115,7 +123,7 @@ Section 9 : 리눅스 커널 API(내부 커널 호출)
 - Section 3 : 일반 함수 매뉴얼
 - Section 9 : 리눅스 커널 API 매뉴얼
 ```
-# SSH
+### SSH
 원격 접속을 위한 명령어
 ```console
 # ssh fedora(:username)@localhost(:address)

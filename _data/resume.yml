@@ -2,12 +2,12 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "heechan"
-  label: "Student"
-  picture: "/assests/img/me.jpg"
-  email: "ryanhe4@gmail.com"
+  name: "Richard Hendricks"
+  label: "Programmer"
+  picture: "https://placehold.it/240x240"
+  email: ""
   phone: "(912) 555-4321"
-  website: "https://xploitdev.com"
+  website: "https://piedpiper.com"
   summary: >
     Richard hails from Tulsa.
     He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
@@ -18,12 +18,12 @@ basics:
     everything from quantum computing to chaos theory.
     He could tell you about it, but THAT would NOT be a “length-limited” conversation!
     Open `_data/resume.yml` to edit this text.
-#  location:
-#    address: "2712 Broadway St"
-#    postalCode: "CA 94115"
-#    city: "San Francisco"
-#    countryCode: "US"
-#    region: "California"
+  location:
+    address: "2712 Broadway St"
+    postalCode: "CA 94115"
+    city: "San Francisco"
+    countryCode: "US"
+    region: "California"
   profiles:
     - network: "Twitter"
       username: "RHendricksCEO"
