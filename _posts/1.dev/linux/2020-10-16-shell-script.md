@@ -126,6 +126,8 @@ tags: linux
 # basename /etc/sysconfig/network-scripts/ifcfg-ens33
 ```
 
+{% include adsense.html %}
+
 ## 쉘 스크립트
 ** 쉘 스크립트 생성 및 실행 방법**
 ```console
