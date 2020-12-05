@@ -2,7 +2,7 @@
 layout: grid
 title: Reversing
 slug: reversing
-category: dev
+category: study
 menu: false
 submenu: true
 order: 5

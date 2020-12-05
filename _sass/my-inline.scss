@@ -15,9 +15,32 @@
   }
 }
 
+//내부요소 설정
+
+main.layout-post > article {
+  h2 {
+    border-bottom: thick double #666666;
+  }
+  p {
+    color:#525f7f;
+    strong {
+      color: var(--body-color);
+    }
+  }
+}
+
+@mixin darkmode-maintext {
+  main.layout-post > article {
+    p {
+      color: var(--body-color);
+    }
+  }
+}
+
 @media screen {
   body.dark-mode {
     @include darkmode-plaintext();
+    @include darkmode-maintext();
   }
 }
 
