@@ -5,11 +5,15 @@ tags: c++
 date: '2020-12-17 17:40:00 +0900'
 image: /assets/img/dev/QT_NBaseBall.png
 ---
-<!--more-->
-## 소개
+**소개**<br>
 이번에는 Qt의 `Label`, `LineEdit`, `PushButton`을 이용하여 간단한 숫자야구 게임을 구현해 보았습니다.
 
 `LineEdit`의 textChanged(Signal), `KeyBoardEvent`와 `random`을 사용하여 구현 하였습니다.
+<!--more-->
+
+* toc
+{:toc .large-only}
+
 ## 구현
 **폴더구조**
 ```coffeescript
