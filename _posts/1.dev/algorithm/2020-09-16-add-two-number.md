@@ -15,7 +15,7 @@ image: >-
 * this is toc
 {:toc .large-only}
 
-![개요](/assets/img/dev/algorithm/2.PNG)
+![개요](/assets/img/dev/algorithm/26.png)
 
 ## 개요
 `reverse order` 형태의 비어있지 않은 `ListNode` 두개가 주어집니다. 각각의 노드에는 단일 숫자가 들어있습니다. 
