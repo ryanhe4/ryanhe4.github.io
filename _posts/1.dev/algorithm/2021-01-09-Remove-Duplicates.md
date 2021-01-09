@@ -15,7 +15,7 @@ image: >-
 * this is toc
 {:toc .large-only}
 
-![개요](/assets/img/dev/algorithm/26.PNG)
+![개요](/assets/img/dev/algorithm/26.png)
 
 ## 개요
 정렬된 형태의 정수값을 가진 배열이 주어집니다. 해당 배열내에서 중복된 값을 제거하고 배열의 크기를 반환하면 됩니다.  
