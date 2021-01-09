@@ -5,7 +5,7 @@ date: 2021-01-09 15:21:00 +0900
 categories: dev
 tags: algorithm
 image: >-
-https://gaussian37.github.io/assets/img/math/algorithm/algorithm.png
+    https://gaussian37.github.io/assets/img/math/algorithm/algorithm.png
 ---
 **문제 주소**<br>
 [https://leetcode.com/problems/remove-duplicates-from-sorted-array/](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
