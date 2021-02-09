@@ -22,7 +22,7 @@
 
   {% for node in nodes %}
   {% assign count = count | plus: 1 %}
-  {% unless node.redirect_to %}
+      {% unless node.redirect_to %}
   <li>
     <input type="checkbox" id="list-item-{{ count }}" />
     <div class="list-wrapper">

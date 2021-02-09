@@ -21,7 +21,6 @@
 {% if related_posts.size > 0 %}
 <aside class="other-projects related mb0" role="complementary">
   <h2>{{ site.data.strings.related_posts | default:"Related Posts" }}</h2>
-
   <div class="columns">
     {% for post in related_posts limit:2 %}
       <div class="column column-1-2">

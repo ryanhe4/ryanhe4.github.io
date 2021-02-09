@@ -82,8 +82,8 @@ excerpt_separator:     <!--more-->
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9
+#theme: jekyll-theme-hydejack
+#remote_theme: hydecorp/hydejack@v9.1.1
 
 
 # Customizaton
@@ -216,7 +216,8 @@ hydejack:
   # Set to `true` if you don't intend on changing the accent color on a per-page basis.
   # This will increase site build speed!
   no_page_style:       false
-
+  hide_last_modified: false
+  no_breadcrumbs:      false
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
   no_break_layout:     true
@@ -241,7 +242,7 @@ hydejack:
   no_theme_color:      false
 
   # Set to `true` when building with the `--lsi` option
-  use_lsi:             false
+  use_lsi:             true
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
@@ -303,6 +304,7 @@ exclude:
   - ./#jekyll-theme-hydejack/.git
   - .jekyll-cache
   - .sass-cache
+  - - '*.toml'
   - vendor
   - Gemfile
   - Gemfile.lock
