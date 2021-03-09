@@ -1,11 +1,11 @@
 ---
 layout: grid
-title: Windows
-slug: windows
+title: OpenGL
+slug: opengl
 category: study
 menu: false
 submenu: true
 order: 4
 description: >
-    윈도우 서버 관리 
+    The Space of Open GL Graphic Programming Study
 ---
